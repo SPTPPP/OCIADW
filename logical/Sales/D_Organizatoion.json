@@ -1,0 +1,87 @@
+{
+  "logicalTable" : {
+    "name" : "D_Organizatoion",
+    "type" : "DIMENSION",
+    "logicalColumns" : [ {
+      "name" : "ORGANIZATIONKEY",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "D_Organizatoion",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Sales.ADMIN.D_Organizatoion.ORGANIZATIONKEY" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "PARENTORGANIZATIONKEY",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "D_Organizatoion",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Sales.ADMIN.D_Organizatoion.PARENTORGANIZATIONKEY" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "PERCENTAGEOFOWNERSHIP",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "D_Organizatoion",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Sales.ADMIN.D_Organizatoion.PERCENTAGEOFOWNERSHIP" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "ORGANIZATIONNAME",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "D_Organizatoion",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Sales.ADMIN.D_Organizatoion.ORGANIZATIONNAME" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "CURRENCYKEY",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "D_Organizatoion",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Sales.ADMIN.D_Organizatoion.CURRENCYKEY" ]
+          }
+        } ]
+      }
+    } ],
+    "logicalTableSources" : [ {
+      "name" : "D_Organizatoion",
+      "disable" : false,
+      "tableMapping" : {
+        "tables" : [ "physicalTable:Sales.ADMIN.D_Organizatoion" ]
+      },
+      "combineWithOtherFragments" : false,
+      "enableFragmentSelection" : false,
+      "distinctValues" : false
+    } ]
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "presentationTable" : {
+    "name" : "D_Date",
+    "presentationColumns" : [ {
+      "name" : "DATEKEY",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D_Date.DATEKEY"
+    }, {
+      "name" : "FULLDATEALTERNATEKEY",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D_Date.FULLDATEALTERNATEKEY"
+    }, {
+      "name" : "DAYNUMBEROFWEEK",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D_Date.DAYNUMBEROFWEEK"
+    }, {
+      "name" : "ENGLISHDAYNAMEOFWEEK",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D_Date.ENGLISHDAYNAMEOFWEEK"
+    }, {
+      "name" : "SPANISHDAYNAMEOFWEEK",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D_Date.SPANISHDAYNAMEOFWEEK"
+    }, {
+      "name" : "FRENCHDAYNAMEOFWEEK",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D_Date.FRENCHDAYNAMEOFWEEK"
+    }, {
+      "name" : "DAYNUMBEROFMONTH",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D_Date.DAYNUMBEROFMONTH"
+    }, {
+      "name" : "DAYNUMBEROFYEAR",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D_Date.DAYNUMBEROFYEAR"
+    }, {
+      "name" : "WEEKNUMBEROFYEAR",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D_Date.WEEKNUMBEROFYEAR"
+    }, {
+      "name" : "ENGLISHMONTHNAME",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D_Date.ENGLISHMONTHNAME"
+    }, {
+      "name" : "SPANISHMONTHNAME",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D_Date.SPANISHMONTHNAME"
+    }, {
+      "name" : "FRENCHMONTHNAME",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D_Date.FRENCHMONTHNAME"
+    }, {
+      "name" : "MONTHNUMBEROFYEAR",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D_Date.MONTHNUMBEROFYEAR"
+    }, {
+      "name" : "CALENDARQUARTER",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D_Date.CALENDARQUARTER"
+    }, {
+      "name" : "CALENDARYEAR",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D_Date.CALENDARYEAR"
+    }, {
+      "name" : "CALENDARSEMESTER",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D_Date.CALENDARSEMESTER"
+    }, {
+      "name" : "FISCALQUARTER",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D_Date.FISCALQUARTER"
+    }, {
+      "name" : "FISCALYEAR",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D_Date.FISCALYEAR"
+    }, {
+      "name" : "FISCALSEMESTER",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D_Date.FISCALSEMESTER"
+    } ]
+  }
+}

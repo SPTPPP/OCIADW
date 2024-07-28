@@ -1,0 +1,191 @@
+{
+  "physicalTable" : {
+    "name" : "DIMPRODUCT",
+    "sourceType" : "TABLE",
+    "physicalColumns" : [ {
+      "name" : "PRODUCTKEY",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "PRODUCTALTERNATEKEY",
+      "dataType" : "VARCHAR",
+      "length" : 25,
+      "nullable" : true
+    }, {
+      "name" : "PRODUCTSUBCATEGORYKEY",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "WEIGHTUNITMEASURECODE",
+      "dataType" : "CHAR",
+      "length" : 3,
+      "nullable" : true
+    }, {
+      "name" : "SIZEUNITMEASURECODE",
+      "dataType" : "CHAR",
+      "length" : 3,
+      "nullable" : true
+    }, {
+      "name" : "ENGLISHPRODUCTNAME",
+      "dataType" : "VARCHAR",
+      "length" : 50,
+      "nullable" : false
+    }, {
+      "name" : "SPANISHPRODUCTNAME",
+      "dataType" : "VARCHAR",
+      "length" : 50,
+      "nullable" : false
+    }, {
+      "name" : "FRENCHPRODUCTNAME",
+      "dataType" : "VARCHAR",
+      "length" : 50,
+      "nullable" : false
+    }, {
+      "name" : "STANDARDCOST",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "FINISHEDGOODSFLAG",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "COLOR",
+      "dataType" : "VARCHAR",
+      "length" : 15,
+      "nullable" : false
+    }, {
+      "name" : "SAFETYSTOCKLEVEL",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "REORDERPOINT",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "LISTPRICE",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "SIZE_",
+      "dataType" : "VARCHAR",
+      "length" : 50,
+      "nullable" : true
+    }, {
+      "name" : "SIZERANGE",
+      "dataType" : "VARCHAR",
+      "length" : 50,
+      "nullable" : true
+    }, {
+      "name" : "WEIGHT",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "DAYSTOMANUFACTURE",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "PRODUCTLINE",
+      "dataType" : "CHAR",
+      "length" : 2,
+      "nullable" : true
+    }, {
+      "name" : "DEALERPRICE",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "CLASS",
+      "dataType" : "CHAR",
+      "length" : 2,
+      "nullable" : true
+    }, {
+      "name" : "STYLE",
+      "dataType" : "CHAR",
+      "length" : 2,
+      "nullable" : true
+    }, {
+      "name" : "MODELNAME",
+      "dataType" : "VARCHAR",
+      "length" : 50,
+      "nullable" : true
+    }, {
+      "name" : "LARGEPHOTO",
+      "dataType" : "LONGVARBINARY",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "ENGLISHDESCRIPTION",
+      "dataType" : "VARCHAR",
+      "length" : 400,
+      "nullable" : true
+    }, {
+      "name" : "FRENCHDESCRIPTION",
+      "dataType" : "VARCHAR",
+      "length" : 400,
+      "nullable" : true
+    }, {
+      "name" : "CHINESEDESCRIPTION",
+      "dataType" : "VARCHAR",
+      "length" : 400,
+      "nullable" : true
+    }, {
+      "name" : "ARABICDESCRIPTION",
+      "dataType" : "VARCHAR",
+      "length" : 400,
+      "nullable" : true
+    }, {
+      "name" : "HEBREWDESCRIPTION",
+      "dataType" : "VARCHAR",
+      "length" : 400,
+      "nullable" : true
+    }, {
+      "name" : "THAIDESCRIPTION",
+      "dataType" : "VARCHAR",
+      "length" : 400,
+      "nullable" : true
+    }, {
+      "name" : "GERMANDESCRIPTION",
+      "dataType" : "VARCHAR",
+      "length" : 400,
+      "nullable" : true
+    }, {
+      "name" : "JAPANESEDESCRIPTION",
+      "dataType" : "VARCHAR",
+      "length" : 400,
+      "nullable" : true
+    }, {
+      "name" : "TURKISHDESCRIPTION",
+      "dataType" : "VARCHAR",
+      "length" : 400,
+      "nullable" : true
+    }, {
+      "name" : "STARTDATE",
+      "dataType" : "TIMESTAMP",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "ENDDATE",
+      "dataType" : "TIMESTAMP",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "STATUS",
+      "dataType" : "VARCHAR",
+      "length" : 7,
+      "nullable" : true
+    } ],
+    "caching" : {
+      "enable" : true,
+      "expiryTime" : 0
+    }
+  }
+}

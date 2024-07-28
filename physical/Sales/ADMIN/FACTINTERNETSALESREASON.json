@@ -1,0 +1,26 @@
+{
+  "physicalTable" : {
+    "name" : "FACTINTERNETSALESREASON",
+    "sourceType" : "TABLE",
+    "physicalColumns" : [ {
+      "name" : "SALESORDERNUMBER",
+      "dataType" : "VARCHAR",
+      "length" : 20,
+      "nullable" : false
+    }, {
+      "name" : "SALESORDERLINENUMBER",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "SALESREASONKEY",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    } ],
+    "caching" : {
+      "enable" : true,
+      "expiryTime" : 0
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "physicalTable" : {
+    "name" : "F_Reseller_Sales",
+    "sourceTable" : "physicalTable:Sales.ADMIN.FACTRESELLERSALES",
+    "overrideSourceCacheSetting" : false
+  }
+}

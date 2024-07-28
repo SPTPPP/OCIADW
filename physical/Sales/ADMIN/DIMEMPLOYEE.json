@@ -1,0 +1,166 @@
+{
+  "physicalTable" : {
+    "name" : "DIMEMPLOYEE",
+    "sourceType" : "TABLE",
+    "physicalColumns" : [ {
+      "name" : "EMPLOYEEKEY",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "PARENTEMPLOYEEKEY",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "EMPLOYEENATIONALIDALTERNATEKEY",
+      "dataType" : "VARCHAR",
+      "length" : 15,
+      "nullable" : true
+    }, {
+      "name" : "PARENTEMPLOYEENATIONALIDALTERNATEKEY",
+      "dataType" : "VARCHAR",
+      "length" : 15,
+      "nullable" : true
+    }, {
+      "name" : "SALESTERRITORYKEY",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "FIRSTNAME",
+      "dataType" : "VARCHAR",
+      "length" : 50,
+      "nullable" : false
+    }, {
+      "name" : "LASTNAME",
+      "dataType" : "VARCHAR",
+      "length" : 50,
+      "nullable" : false
+    }, {
+      "name" : "MIDDLENAME",
+      "dataType" : "VARCHAR",
+      "length" : 50,
+      "nullable" : true
+    }, {
+      "name" : "NAMESTYLE",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "TITLE",
+      "dataType" : "VARCHAR",
+      "length" : 50,
+      "nullable" : true
+    }, {
+      "name" : "HIREDATE",
+      "dataType" : "VARCHAR",
+      "length" : 10,
+      "nullable" : true
+    }, {
+      "name" : "BIRTHDATE",
+      "dataType" : "VARCHAR",
+      "length" : 10,
+      "nullable" : true
+    }, {
+      "name" : "LOGINID",
+      "dataType" : "VARCHAR",
+      "length" : 256,
+      "nullable" : true
+    }, {
+      "name" : "EMAILADDRESS",
+      "dataType" : "VARCHAR",
+      "length" : 50,
+      "nullable" : true
+    }, {
+      "name" : "PHONE",
+      "dataType" : "VARCHAR",
+      "length" : 25,
+      "nullable" : true
+    }, {
+      "name" : "MARITALSTATUS",
+      "dataType" : "CHAR",
+      "length" : 1,
+      "nullable" : true
+    }, {
+      "name" : "EMERGENCYCONTACTNAME",
+      "dataType" : "VARCHAR",
+      "length" : 50,
+      "nullable" : true
+    }, {
+      "name" : "EMERGENCYCONTACTPHONE",
+      "dataType" : "VARCHAR",
+      "length" : 25,
+      "nullable" : true
+    }, {
+      "name" : "SALARIEDFLAG",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "GENDER",
+      "dataType" : "CHAR",
+      "length" : 1,
+      "nullable" : true
+    }, {
+      "name" : "PAYFREQUENCY",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "BASERATE",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "VACATIONHOURS",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "SICKLEAVEHOURS",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "CURRENTFLAG",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "SALESPERSONFLAG",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "DEPARTMENTNAME",
+      "dataType" : "VARCHAR",
+      "length" : 50,
+      "nullable" : true
+    }, {
+      "name" : "STARTDATE",
+      "dataType" : "VARCHAR",
+      "length" : 10,
+      "nullable" : true
+    }, {
+      "name" : "ENDDATE",
+      "dataType" : "VARCHAR",
+      "length" : 10,
+      "nullable" : true
+    }, {
+      "name" : "STATUS",
+      "dataType" : "VARCHAR",
+      "length" : 50,
+      "nullable" : true
+    }, {
+      "name" : "EMPLOYEEPHOTO",
+      "dataType" : "LONGVARBINARY",
+      "length" : 0,
+      "nullable" : true
+    } ],
+    "caching" : {
+      "enable" : true,
+      "expiryTime" : 0
+    }
+  }
+}

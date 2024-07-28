@@ -1,0 +1,60 @@
+{
+  "logicalTable" : {
+    "name" : "D_Department_Group",
+    "type" : "DIMENSION",
+    "logicalColumns" : [ {
+      "name" : "DEPARTMENTGROUPKEY",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "D_Department_Group",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Sales.ADMIN.D_Department_Group.DEPARTMENTGROUPKEY" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "PARENTDEPARTMENTGROUPKEY",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "D_Department_Group",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Sales.ADMIN.D_Department_Group.PARENTDEPARTMENTGROUPKEY" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "DEPARTMENTGROUPNAME",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "D_Department_Group",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Sales.ADMIN.D_Department_Group.DEPARTMENTGROUPNAME" ]
+          }
+        } ]
+      }
+    } ],
+    "logicalTableSources" : [ {
+      "name" : "D_Department_Group",
+      "disable" : false,
+      "tableMapping" : {
+        "tables" : [ "physicalTable:Sales.ADMIN.D_Department_Group" ]
+      },
+      "combineWithOtherFragments" : false,
+      "enableFragmentSelection" : false,
+      "distinctValues" : false
+    } ],
+    "primaryKey" : [ "DEPARTMENTGROUPKEY" ]
+  }
+}

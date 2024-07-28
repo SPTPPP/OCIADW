@@ -1,0 +1,146 @@
+{
+  "physicalTable" : {
+    "name" : "FACTRESELLERSALES",
+    "sourceType" : "TABLE",
+    "physicalColumns" : [ {
+      "name" : "PRODUCTKEY",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "ORDERDATEKEY",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "DUEDATEKEY",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "SHIPDATEKEY",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "RESELLERKEY",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "EMPLOYEEKEY",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "PROMOTIONKEY",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "CURRENCYKEY",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "SALESTERRITORYKEY",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "SALESORDERNUMBER",
+      "dataType" : "VARCHAR",
+      "length" : 20,
+      "nullable" : false
+    }, {
+      "name" : "SALESORDERLINENUMBER",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "REVISIONNUMBER",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "ORDERQUANTITY",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "UNITPRICE",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "EXTENDEDAMOUNT",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "UNITPRICEDISCOUNTPCT",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "DISCOUNTAMOUNT",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "PRODUCTSTANDARDCOST",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "TOTALPRODUCTCOST",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "SALESAMOUNT",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "TAXAMT",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "FREIGHT",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "CARRIERTRACKINGNUMBER",
+      "dataType" : "VARCHAR",
+      "length" : 25,
+      "nullable" : true
+    }, {
+      "name" : "CUSTOMERPONUMBER",
+      "dataType" : "VARCHAR",
+      "length" : 25,
+      "nullable" : true
+    }, {
+      "name" : "ORDERDATE",
+      "dataType" : "TIMESTAMP",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "DUEDATE",
+      "dataType" : "TIMESTAMP",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "SHIPDATE",
+      "dataType" : "TIMESTAMP",
+      "length" : 0,
+      "nullable" : true
+    } ],
+    "caching" : {
+      "enable" : true,
+      "expiryTime" : 0
+    }
+  }
+}

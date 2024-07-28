@@ -1,0 +1,21 @@
+{
+  "physicalTable" : {
+    "name" : "DIMSCENARIO",
+    "sourceType" : "TABLE",
+    "physicalColumns" : [ {
+      "name" : "SCENARIOKEY",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "SCENARIONAME",
+      "dataType" : "VARCHAR",
+      "length" : 50,
+      "nullable" : true
+    } ],
+    "caching" : {
+      "enable" : true,
+      "expiryTime" : 0
+    }
+  }
+}

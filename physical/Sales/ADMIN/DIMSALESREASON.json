@@ -1,0 +1,31 @@
+{
+  "physicalTable" : {
+    "name" : "DIMSALESREASON",
+    "sourceType" : "TABLE",
+    "physicalColumns" : [ {
+      "name" : "SALESREASONKEY",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "SALESREASONALTERNATEKEY",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "SALESREASONNAME",
+      "dataType" : "VARCHAR",
+      "length" : 50,
+      "nullable" : false
+    }, {
+      "name" : "SALESREASONREASONTYPE",
+      "dataType" : "VARCHAR",
+      "length" : 50,
+      "nullable" : false
+    } ],
+    "caching" : {
+      "enable" : true,
+      "expiryTime" : 0
+    }
+  }
+}

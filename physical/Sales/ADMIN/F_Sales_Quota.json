@@ -1,0 +1,7 @@
+{
+  "physicalTable" : {
+    "name" : "F_Sales_Quota",
+    "sourceTable" : "physicalTable:Sales.ADMIN.FACTSALESQUOTA",
+    "overrideSourceCacheSetting" : false
+  }
+}

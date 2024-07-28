@@ -1,0 +1,36 @@
+{
+  "physicalTable" : {
+    "name" : "FACTCURRENCYRATE",
+    "sourceType" : "TABLE",
+    "physicalColumns" : [ {
+      "name" : "CURRENCYKEY",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "DATEKEY",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "AVERAGERATE",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "ENDOFDAYRATE",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "DATE_",
+      "dataType" : "TIMESTAMP",
+      "length" : 0,
+      "nullable" : true
+    } ],
+    "caching" : {
+      "enable" : true,
+      "expiryTime" : 0
+    }
+  }
+}

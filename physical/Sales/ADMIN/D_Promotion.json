@@ -1,0 +1,7 @@
+{
+  "physicalTable" : {
+    "name" : "D_Promotion",
+    "sourceTable" : "physicalTable:Sales.ADMIN.DIMPROMOTION",
+    "overrideSourceCacheSetting" : false
+  }
+}

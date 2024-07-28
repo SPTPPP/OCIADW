@@ -1,0 +1,155 @@
+{
+  "logicalTable" : {
+    "name" : "F_Finance",
+    "type" : "FACT",
+    "logicalColumns" : [ {
+      "name" : "FINANCEKEY",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "F_Finance",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Sales.ADMIN.F_Finance.FINANCEKEY" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "DATEKEY",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "F_Finance",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Sales.ADMIN.F_Finance.DATEKEY" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "ORGANIZATIONKEY",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "F_Finance",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Sales.ADMIN.F_Finance.ORGANIZATIONKEY" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "DEPARTMENTGROUPKEY",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "F_Finance",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Sales.ADMIN.F_Finance.DEPARTMENTGROUPKEY" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "SCENARIOKEY",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "F_Finance",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Sales.ADMIN.F_Finance.SCENARIOKEY" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "ACCOUNTKEY",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "F_Finance",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Sales.ADMIN.F_Finance.ACCOUNTKEY" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "AMOUNT",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "F_Finance",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Sales.ADMIN.F_Finance.AMOUNT" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "DATE_",
+      "dataType" : "TIMESTAMP",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "F_Finance",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Sales.ADMIN.F_Finance.DATE_" ]
+          }
+        } ]
+      }
+    } ],
+    "logicalTableSources" : [ {
+      "name" : "F_Finance",
+      "disable" : false,
+      "tableMapping" : {
+        "tables" : [ "physicalTable:Sales.ADMIN.F_Finance" ]
+      },
+      "combineWithOtherFragments" : false,
+      "enableFragmentSelection" : false,
+      "distinctValues" : false
+    } ],
+    "joins" : [ {
+      "rightTable" : "logicalTable:Sales.D_Account",
+      "joinType" : "INNER",
+      "cardinality" : "MANY_TO_ONE",
+      "drivingTable" : "None"
+    }, {
+      "rightTable" : "logicalTable:Sales.D_Date",
+      "joinType" : "INNER",
+      "cardinality" : "MANY_TO_ONE",
+      "drivingTable" : "None"
+    }, {
+      "rightTable" : "logicalTable:Sales.D_Department_Group",
+      "joinType" : "INNER",
+      "cardinality" : "MANY_TO_ONE",
+      "drivingTable" : "None"
+    }, {
+      "rightTable" : "logicalTable:Sales.D_Organizatoion",
+      "joinType" : "INNER",
+      "cardinality" : "MANY_TO_ONE",
+      "drivingTable" : "None"
+    }, {
+      "rightTable" : "logicalTable:Sales.D_Scenerio",
+      "joinType" : "INNER",
+      "cardinality" : "MANY_TO_ONE",
+      "drivingTable" : "None"
+    } ]
+  }
+}

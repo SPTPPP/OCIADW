@@ -1,0 +1,41 @@
+{
+  "physicalTable" : {
+    "name" : "DIMPRODUCTSUBCATEGORY",
+    "sourceType" : "TABLE",
+    "physicalColumns" : [ {
+      "name" : "PRODUCTSUBCATEGORYKEY",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "PRODUCTSUBCATEGORYALTERNATEKEY",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "ENGLISHPRODUCTSUBCATEGORYNAME",
+      "dataType" : "VARCHAR",
+      "length" : 50,
+      "nullable" : false
+    }, {
+      "name" : "SPANISHPRODUCTSUBCATEGORYNAME",
+      "dataType" : "VARCHAR",
+      "length" : 50,
+      "nullable" : false
+    }, {
+      "name" : "FRENCHPRODUCTSUBCATEGORYNAME",
+      "dataType" : "VARCHAR",
+      "length" : 50,
+      "nullable" : false
+    }, {
+      "name" : "PRODUCTCATEGORYKEY",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : true
+    } ],
+    "caching" : {
+      "enable" : true,
+      "expiryTime" : 0
+    }
+  }
+}

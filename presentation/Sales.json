@@ -1,0 +1,19 @@
+{
+  "subjectArea" : {
+    "name" : "Sales",
+    "sourceBusinessModel" : "businessModel:Sales",
+    "tableOrder" : [ {
+      "name" : "presentationTable:Sales.D_Account"
+    }, {
+      "name" : "presentationTable:Sales.D_Date"
+    }, {
+      "name" : "presentationTable:Sales.D_Department_Group"
+    }, {
+      "name" : "presentationTable:Sales.D_Organizatoion"
+    }, {
+      "name" : "presentationTable:Sales.D_Scenerio"
+    }, {
+      "name" : "presentationTable:Sales.F_Finance"
+    } ]
+  }
+}

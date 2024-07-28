@@ -1,0 +1,46 @@
+{
+  "physicalTable" : {
+    "name" : "FACTSALESQUOTA",
+    "sourceType" : "TABLE",
+    "physicalColumns" : [ {
+      "name" : "SALESQUOTAKEY",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "EMPLOYEEKEY",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "DATEKEY",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "CALENDARYEAR",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "CALENDARQUARTER",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "SALESAMOUNTQUOTA",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "DATE_",
+      "dataType" : "TIMESTAMP",
+      "length" : 0,
+      "nullable" : true
+    } ],
+    "caching" : {
+      "enable" : true,
+      "expiryTime" : 0
+    }
+  }
+}

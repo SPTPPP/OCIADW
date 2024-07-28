@@ -1,0 +1,7 @@
+{
+  "physicalTable" : {
+    "name" : "F_Internet_Sales_Reason",
+    "sourceTable" : "physicalTable:Sales.ADMIN.FACTINTERNETSALESREASON",
+    "overrideSourceCacheSetting" : false
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "physicalTable" : {
+    "name" : "F_Currency_Rate",
+    "sourceTable" : "physicalTable:Sales.ADMIN.FACTCURRENCYRATE",
+    "overrideSourceCacheSetting" : false
+  }
+}

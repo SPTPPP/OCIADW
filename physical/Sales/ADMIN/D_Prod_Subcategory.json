@@ -1,0 +1,7 @@
+{
+  "physicalTable" : {
+    "name" : "D_Prod_Subcategory",
+    "sourceTable" : "physicalTable:Sales.ADMIN.DIMPRODUCTSUBCATEGORY",
+    "overrideSourceCacheSetting" : false
+  }
+}

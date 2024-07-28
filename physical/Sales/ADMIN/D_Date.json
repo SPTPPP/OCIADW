@@ -1,0 +1,7 @@
+{
+  "physicalTable" : {
+    "name" : "D_Date",
+    "sourceTable" : "physicalTable:Sales.ADMIN.DIMDATE",
+    "overrideSourceCacheSetting" : false
+  }
+}

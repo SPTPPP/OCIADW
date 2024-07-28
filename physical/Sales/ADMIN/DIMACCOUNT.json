@@ -1,0 +1,61 @@
+{
+  "physicalTable" : {
+    "name" : "DIMACCOUNT",
+    "sourceType" : "TABLE",
+    "physicalColumns" : [ {
+      "name" : "ACCOUNTKEY",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "PARENTACCOUNTKEY",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "ACCOUNTCODEALTERNATEKEY",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "PARENTACCOUNTCODEALTERNATEKEY",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "ACCOUNTDESCRIPTION",
+      "dataType" : "VARCHAR",
+      "length" : 50,
+      "nullable" : true
+    }, {
+      "name" : "ACCOUNTTYPE",
+      "dataType" : "VARCHAR",
+      "length" : 50,
+      "nullable" : true
+    }, {
+      "name" : "OPERATOR",
+      "dataType" : "VARCHAR",
+      "length" : 50,
+      "nullable" : true
+    }, {
+      "name" : "CUSTOMMEMBERS",
+      "dataType" : "VARCHAR",
+      "length" : 300,
+      "nullable" : true
+    }, {
+      "name" : "VALUETYPE",
+      "dataType" : "VARCHAR",
+      "length" : 50,
+      "nullable" : true
+    }, {
+      "name" : "CUSTOMMEMBEROPTIONS",
+      "dataType" : "VARCHAR",
+      "length" : 200,
+      "nullable" : true
+    } ],
+    "caching" : {
+      "enable" : true,
+      "expiryTime" : 0
+    }
+  }
+}

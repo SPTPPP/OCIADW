@@ -1,0 +1,91 @@
+{
+  "physicalTable" : {
+    "name" : "DIMPROMOTION",
+    "sourceType" : "TABLE",
+    "physicalColumns" : [ {
+      "name" : "PROMOTIONKEY",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "PROMOTIONALTERNATEKEY",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "ENGLISHPROMOTIONNAME",
+      "dataType" : "VARCHAR",
+      "length" : 255,
+      "nullable" : true
+    }, {
+      "name" : "SPANISHPROMOTIONNAME",
+      "dataType" : "VARCHAR",
+      "length" : 255,
+      "nullable" : true
+    }, {
+      "name" : "FRENCHPROMOTIONNAME",
+      "dataType" : "VARCHAR",
+      "length" : 255,
+      "nullable" : true
+    }, {
+      "name" : "DISCOUNTPCT",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "ENGLISHPROMOTIONTYPE",
+      "dataType" : "VARCHAR",
+      "length" : 50,
+      "nullable" : true
+    }, {
+      "name" : "SPANISHPROMOTIONTYPE",
+      "dataType" : "VARCHAR",
+      "length" : 50,
+      "nullable" : true
+    }, {
+      "name" : "FRENCHPROMOTIONTYPE",
+      "dataType" : "VARCHAR",
+      "length" : 50,
+      "nullable" : true
+    }, {
+      "name" : "ENGLISHPROMOTIONCATEGORY",
+      "dataType" : "VARCHAR",
+      "length" : 50,
+      "nullable" : true
+    }, {
+      "name" : "SPANISHPROMOTIONCATEGORY",
+      "dataType" : "VARCHAR",
+      "length" : 50,
+      "nullable" : true
+    }, {
+      "name" : "FRENCHPROMOTIONCATEGORY",
+      "dataType" : "VARCHAR",
+      "length" : 50,
+      "nullable" : true
+    }, {
+      "name" : "STARTDATE",
+      "dataType" : "TIMESTAMP",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "ENDDATE",
+      "dataType" : "TIMESTAMP",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "MINQTY",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "MAXQTY",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : true
+    } ],
+    "caching" : {
+      "enable" : true,
+      "expiryTime" : 0
+    }
+  }
+}

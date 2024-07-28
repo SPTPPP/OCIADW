@@ -1,0 +1,7 @@
+{
+  "physicalTable" : {
+    "name" : "F_CallCenter",
+    "sourceTable" : "physicalTable:Sales.ADMIN.FACTCALLCENTER",
+    "overrideSourceCacheSetting" : false
+  }
+}

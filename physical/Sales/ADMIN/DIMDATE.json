@@ -1,0 +1,106 @@
+{
+  "physicalTable" : {
+    "name" : "DIMDATE",
+    "sourceType" : "TABLE",
+    "physicalColumns" : [ {
+      "name" : "DATEKEY",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "FULLDATEALTERNATEKEY",
+      "dataType" : "VARCHAR",
+      "length" : 10,
+      "nullable" : false
+    }, {
+      "name" : "DAYNUMBEROFWEEK",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "ENGLISHDAYNAMEOFWEEK",
+      "dataType" : "VARCHAR",
+      "length" : 10,
+      "nullable" : false
+    }, {
+      "name" : "SPANISHDAYNAMEOFWEEK",
+      "dataType" : "VARCHAR",
+      "length" : 10,
+      "nullable" : false
+    }, {
+      "name" : "FRENCHDAYNAMEOFWEEK",
+      "dataType" : "VARCHAR",
+      "length" : 10,
+      "nullable" : false
+    }, {
+      "name" : "DAYNUMBEROFMONTH",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "DAYNUMBEROFYEAR",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "WEEKNUMBEROFYEAR",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "ENGLISHMONTHNAME",
+      "dataType" : "VARCHAR",
+      "length" : 10,
+      "nullable" : false
+    }, {
+      "name" : "SPANISHMONTHNAME",
+      "dataType" : "VARCHAR",
+      "length" : 10,
+      "nullable" : false
+    }, {
+      "name" : "FRENCHMONTHNAME",
+      "dataType" : "VARCHAR",
+      "length" : 10,
+      "nullable" : false
+    }, {
+      "name" : "MONTHNUMBEROFYEAR",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "CALENDARQUARTER",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "CALENDARYEAR",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "CALENDARSEMESTER",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "FISCALQUARTER",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "FISCALYEAR",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "FISCALSEMESTER",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    } ],
+    "caching" : {
+      "enable" : true,
+      "expiryTime" : 0
+    }
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "physicalTable" : {
+    "name" : "FACTCALLCENTER",
+    "sourceType" : "TABLE",
+    "physicalColumns" : [ {
+      "name" : "FACTCALLCENTERID",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "DATEKEY",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "WAGETYPE",
+      "dataType" : "VARCHAR",
+      "length" : 15,
+      "nullable" : false
+    }, {
+      "name" : "SHIFT",
+      "dataType" : "VARCHAR",
+      "length" : 20,
+      "nullable" : false
+    }, {
+      "name" : "LEVELONEOPERATORS",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "LEVELTWOOPERATORS",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "TOTALOPERATORS",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "CALLS",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "AUTOMATICRESPONSES",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "ORDERS",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "ISSUESRAISED",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "AVERAGETIMEPERISSUE",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "SERVICEGRADE",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "DATE_",
+      "dataType" : "TIMESTAMP",
+      "length" : 0,
+      "nullable" : true
+    } ],
+    "caching" : {
+      "enable" : true,
+      "expiryTime" : 0
+    }
+  }
+}

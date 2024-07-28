@@ -1,0 +1,7 @@
+{
+  "physicalTable" : {
+    "name" : "D_Scenerio",
+    "sourceTable" : "physicalTable:Sales.ADMIN.DIMSCENARIO",
+    "overrideSourceCacheSetting" : false
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "physicalTable" : {
+    "name" : "D_Organizatoion",
+    "sourceTable" : "physicalTable:Sales.ADMIN.DIMORGANIZATION",
+    "overrideSourceCacheSetting" : false
+  }
+}
