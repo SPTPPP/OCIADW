@@ -208,6 +208,12 @@
       "combineWithOtherFragments" : false,
       "enableFragmentSelection" : false,
       "distinctValues" : false
+    } ],
+    "joins" : [ {
+      "rightTable" : "logicalTable:Sales.D Date",
+      "joinType" : "INNER",
+      "cardinality" : "MANY_TO_ONE",
+      "drivingTable" : "None"
     } ]
   }
 }

@@ -1,0 +1,7 @@
+{
+  "physicalTable" : {
+    "name" : "D_Sales_Territory",
+    "sourceTable" : "physicalTable:Sales.ADMIN.DIMSALESTERRITORY",
+    "overrideSourceCacheSetting" : false
+  }
+}

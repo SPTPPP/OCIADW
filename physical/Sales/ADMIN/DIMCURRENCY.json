@@ -1,0 +1,26 @@
+{
+  "physicalTable" : {
+    "name" : "DIMCURRENCY",
+    "sourceType" : "TABLE",
+    "physicalColumns" : [ {
+      "name" : "CURRENCYKEY",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "CURRENCYALTERNATEKEY",
+      "dataType" : "CHAR",
+      "length" : 3,
+      "nullable" : false
+    }, {
+      "name" : "CURRENCYNAME",
+      "dataType" : "VARCHAR",
+      "length" : 50,
+      "nullable" : false
+    } ],
+    "caching" : {
+      "enable" : true,
+      "expiryTime" : 0
+    }
+  }
+}

@@ -2,6 +2,16 @@
   "physicalTable" : {
     "name" : "F_Internet_Sales_Reason",
     "sourceTable" : "physicalTable:Sales.ADMIN.FACTINTERNETSALESREASON",
-    "overrideSourceCacheSetting" : false
+    "overrideSourceCacheSetting" : false,
+    "joins" : [ {
+      "rightTable" : "physicalTable:Sales.ADMIN.D_SalesReason",
+      "useJoinExpression" : false,
+      "joinConditions" : [ {
+        "leftColumn" : "physicalColumn:Sales.ADMIN.F_Internet_Sales_Reason.SALESREASONKEY",
+        "rightColumn" : "physicalColumn:Sales.ADMIN.D_SalesReason.SALESREASONKEY"
+      } ],
+      "joinType" : "INNER",
+      "cardinality" : "MANY_TO_ONE"
+    } ]
   }
 }

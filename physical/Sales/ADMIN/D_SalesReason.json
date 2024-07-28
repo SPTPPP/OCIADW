@@ -1,6 +1,6 @@
 {
   "physicalTable" : {
-    "name" : "D_SalesPerson",
+    "name" : "D_SalesReason",
     "sourceTable" : "physicalTable:Sales.ADMIN.DIMSALESREASON",
     "overrideSourceCacheSetting" : false
   }

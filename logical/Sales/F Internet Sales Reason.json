@@ -54,6 +54,12 @@
       "combineWithOtherFragments" : false,
       "enableFragmentSelection" : false,
       "distinctValues" : false
+    } ],
+    "joins" : [ {
+      "rightTable" : "logicalTable:Sales.D Salesreason",
+      "joinType" : "INNER",
+      "cardinality" : "MANY_TO_ONE",
+      "drivingTable" : "None"
     } ]
   }
 }

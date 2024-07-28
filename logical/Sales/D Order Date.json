@@ -1,242 +1,284 @@
 {
   "logicalTable" : {
-    "name" : "D Promotion",
+    "name" : "D Order Date",
     "type" : "DIMENSION",
     "logicalColumns" : [ {
-      "name" : "Promotionkey",
+      "name" : "Datekey",
       "dataType" : "NUMERIC",
       "writeable" : false,
       "logicalColumnSource" : {
         "derivedFrom" : "PHYSICAL_COLUMNS",
         "physicalMappings" : [ {
-          "logicalTableSource" : "D_Promotion",
+          "logicalTableSource" : "D_Order_Date",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
-            "expressionObjects" : [ "physicalColumn:Sales.ADMIN.D_Promotion.PROMOTIONKEY" ]
+            "expressionObjects" : [ "physicalColumn:Sales.ADMIN.D_Order_Date.DATEKEY" ]
           }
         } ]
       }
     }, {
-      "name" : "Promotionalternatekey",
+      "name" : "Fulldatealternatekey",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "D_Order_Date",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Sales.ADMIN.D_Order_Date.FULLDATEALTERNATEKEY" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Daynumberofweek",
       "dataType" : "NUMERIC",
       "writeable" : false,
       "logicalColumnSource" : {
         "derivedFrom" : "PHYSICAL_COLUMNS",
         "physicalMappings" : [ {
-          "logicalTableSource" : "D_Promotion",
+          "logicalTableSource" : "D_Order_Date",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
-            "expressionObjects" : [ "physicalColumn:Sales.ADMIN.D_Promotion.PROMOTIONALTERNATEKEY" ]
+            "expressionObjects" : [ "physicalColumn:Sales.ADMIN.D_Order_Date.DAYNUMBEROFWEEK" ]
           }
         } ]
       }
     }, {
-      "name" : "Englishpromotionname",
+      "name" : "Englishdaynameofweek",
       "dataType" : "VARCHAR",
       "writeable" : false,
       "logicalColumnSource" : {
         "derivedFrom" : "PHYSICAL_COLUMNS",
         "physicalMappings" : [ {
-          "logicalTableSource" : "D_Promotion",
+          "logicalTableSource" : "D_Order_Date",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
-            "expressionObjects" : [ "physicalColumn:Sales.ADMIN.D_Promotion.ENGLISHPROMOTIONNAME" ]
+            "expressionObjects" : [ "physicalColumn:Sales.ADMIN.D_Order_Date.ENGLISHDAYNAMEOFWEEK" ]
           }
         } ]
       }
     }, {
-      "name" : "Spanishpromotionname",
+      "name" : "Spanishdaynameofweek",
       "dataType" : "VARCHAR",
       "writeable" : false,
       "logicalColumnSource" : {
         "derivedFrom" : "PHYSICAL_COLUMNS",
         "physicalMappings" : [ {
-          "logicalTableSource" : "D_Promotion",
+          "logicalTableSource" : "D_Order_Date",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
-            "expressionObjects" : [ "physicalColumn:Sales.ADMIN.D_Promotion.SPANISHPROMOTIONNAME" ]
+            "expressionObjects" : [ "physicalColumn:Sales.ADMIN.D_Order_Date.SPANISHDAYNAMEOFWEEK" ]
           }
         } ]
       }
     }, {
-      "name" : "Frenchpromotionname",
+      "name" : "Frenchdaynameofweek",
       "dataType" : "VARCHAR",
       "writeable" : false,
       "logicalColumnSource" : {
         "derivedFrom" : "PHYSICAL_COLUMNS",
         "physicalMappings" : [ {
-          "logicalTableSource" : "D_Promotion",
+          "logicalTableSource" : "D_Order_Date",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
-            "expressionObjects" : [ "physicalColumn:Sales.ADMIN.D_Promotion.FRENCHPROMOTIONNAME" ]
+            "expressionObjects" : [ "physicalColumn:Sales.ADMIN.D_Order_Date.FRENCHDAYNAMEOFWEEK" ]
           }
         } ]
       }
     }, {
-      "name" : "Discountpct",
+      "name" : "Daynumberofmonth",
       "dataType" : "NUMERIC",
       "writeable" : false,
       "logicalColumnSource" : {
         "derivedFrom" : "PHYSICAL_COLUMNS",
         "physicalMappings" : [ {
-          "logicalTableSource" : "D_Promotion",
+          "logicalTableSource" : "D_Order_Date",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
-            "expressionObjects" : [ "physicalColumn:Sales.ADMIN.D_Promotion.DISCOUNTPCT" ]
+            "expressionObjects" : [ "physicalColumn:Sales.ADMIN.D_Order_Date.DAYNUMBEROFMONTH" ]
           }
         } ]
       }
     }, {
-      "name" : "Englishpromotiontype",
-      "dataType" : "VARCHAR",
-      "writeable" : false,
-      "logicalColumnSource" : {
-        "derivedFrom" : "PHYSICAL_COLUMNS",
-        "physicalMappings" : [ {
-          "logicalTableSource" : "D_Promotion",
-          "physicalExpression" : {
-            "expressionTemplate" : "%1",
-            "expressionObjects" : [ "physicalColumn:Sales.ADMIN.D_Promotion.ENGLISHPROMOTIONTYPE" ]
-          }
-        } ]
-      }
-    }, {
-      "name" : "Spanishpromotiontype",
-      "dataType" : "VARCHAR",
-      "writeable" : false,
-      "logicalColumnSource" : {
-        "derivedFrom" : "PHYSICAL_COLUMNS",
-        "physicalMappings" : [ {
-          "logicalTableSource" : "D_Promotion",
-          "physicalExpression" : {
-            "expressionTemplate" : "%1",
-            "expressionObjects" : [ "physicalColumn:Sales.ADMIN.D_Promotion.SPANISHPROMOTIONTYPE" ]
-          }
-        } ]
-      }
-    }, {
-      "name" : "Frenchpromotiontype",
-      "dataType" : "VARCHAR",
-      "writeable" : false,
-      "logicalColumnSource" : {
-        "derivedFrom" : "PHYSICAL_COLUMNS",
-        "physicalMappings" : [ {
-          "logicalTableSource" : "D_Promotion",
-          "physicalExpression" : {
-            "expressionTemplate" : "%1",
-            "expressionObjects" : [ "physicalColumn:Sales.ADMIN.D_Promotion.FRENCHPROMOTIONTYPE" ]
-          }
-        } ]
-      }
-    }, {
-      "name" : "Englishpromotioncategory",
-      "dataType" : "VARCHAR",
-      "writeable" : false,
-      "logicalColumnSource" : {
-        "derivedFrom" : "PHYSICAL_COLUMNS",
-        "physicalMappings" : [ {
-          "logicalTableSource" : "D_Promotion",
-          "physicalExpression" : {
-            "expressionTemplate" : "%1",
-            "expressionObjects" : [ "physicalColumn:Sales.ADMIN.D_Promotion.ENGLISHPROMOTIONCATEGORY" ]
-          }
-        } ]
-      }
-    }, {
-      "name" : "Spanishpromotioncategory",
-      "dataType" : "VARCHAR",
-      "writeable" : false,
-      "logicalColumnSource" : {
-        "derivedFrom" : "PHYSICAL_COLUMNS",
-        "physicalMappings" : [ {
-          "logicalTableSource" : "D_Promotion",
-          "physicalExpression" : {
-            "expressionTemplate" : "%1",
-            "expressionObjects" : [ "physicalColumn:Sales.ADMIN.D_Promotion.SPANISHPROMOTIONCATEGORY" ]
-          }
-        } ]
-      }
-    }, {
-      "name" : "Frenchpromotioncategory",
-      "dataType" : "VARCHAR",
-      "writeable" : false,
-      "logicalColumnSource" : {
-        "derivedFrom" : "PHYSICAL_COLUMNS",
-        "physicalMappings" : [ {
-          "logicalTableSource" : "D_Promotion",
-          "physicalExpression" : {
-            "expressionTemplate" : "%1",
-            "expressionObjects" : [ "physicalColumn:Sales.ADMIN.D_Promotion.FRENCHPROMOTIONCATEGORY" ]
-          }
-        } ]
-      }
-    }, {
-      "name" : "Startdate",
-      "dataType" : "TIMESTAMP",
-      "writeable" : false,
-      "logicalColumnSource" : {
-        "derivedFrom" : "PHYSICAL_COLUMNS",
-        "physicalMappings" : [ {
-          "logicalTableSource" : "D_Promotion",
-          "physicalExpression" : {
-            "expressionTemplate" : "%1",
-            "expressionObjects" : [ "physicalColumn:Sales.ADMIN.D_Promotion.STARTDATE" ]
-          }
-        } ]
-      }
-    }, {
-      "name" : "Enddate",
-      "dataType" : "TIMESTAMP",
-      "writeable" : false,
-      "logicalColumnSource" : {
-        "derivedFrom" : "PHYSICAL_COLUMNS",
-        "physicalMappings" : [ {
-          "logicalTableSource" : "D_Promotion",
-          "physicalExpression" : {
-            "expressionTemplate" : "%1",
-            "expressionObjects" : [ "physicalColumn:Sales.ADMIN.D_Promotion.ENDDATE" ]
-          }
-        } ]
-      }
-    }, {
-      "name" : "Minqty",
+      "name" : "Daynumberofyear",
       "dataType" : "NUMERIC",
       "writeable" : false,
       "logicalColumnSource" : {
         "derivedFrom" : "PHYSICAL_COLUMNS",
         "physicalMappings" : [ {
-          "logicalTableSource" : "D_Promotion",
+          "logicalTableSource" : "D_Order_Date",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
-            "expressionObjects" : [ "physicalColumn:Sales.ADMIN.D_Promotion.MINQTY" ]
+            "expressionObjects" : [ "physicalColumn:Sales.ADMIN.D_Order_Date.DAYNUMBEROFYEAR" ]
           }
         } ]
       }
     }, {
-      "name" : "Maxqty",
+      "name" : "Weeknumberofyear",
       "dataType" : "NUMERIC",
       "writeable" : false,
       "logicalColumnSource" : {
         "derivedFrom" : "PHYSICAL_COLUMNS",
         "physicalMappings" : [ {
-          "logicalTableSource" : "D_Promotion",
+          "logicalTableSource" : "D_Order_Date",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
-            "expressionObjects" : [ "physicalColumn:Sales.ADMIN.D_Promotion.MAXQTY" ]
+            "expressionObjects" : [ "physicalColumn:Sales.ADMIN.D_Order_Date.WEEKNUMBEROFYEAR" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Englishmonthname",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "D_Order_Date",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Sales.ADMIN.D_Order_Date.ENGLISHMONTHNAME" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Spanishmonthname",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "D_Order_Date",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Sales.ADMIN.D_Order_Date.SPANISHMONTHNAME" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Frenchmonthname",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "D_Order_Date",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Sales.ADMIN.D_Order_Date.FRENCHMONTHNAME" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Monthnumberofyear",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "D_Order_Date",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Sales.ADMIN.D_Order_Date.MONTHNUMBEROFYEAR" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Calendarquarter",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "D_Order_Date",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Sales.ADMIN.D_Order_Date.CALENDARQUARTER" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Calendaryear",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "D_Order_Date",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Sales.ADMIN.D_Order_Date.CALENDARYEAR" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Calendarsemester",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "D_Order_Date",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Sales.ADMIN.D_Order_Date.CALENDARSEMESTER" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Fiscalquarter",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "D_Order_Date",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Sales.ADMIN.D_Order_Date.FISCALQUARTER" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Fiscalyear",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "D_Order_Date",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Sales.ADMIN.D_Order_Date.FISCALYEAR" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Fiscalsemester",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "D_Order_Date",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Sales.ADMIN.D_Order_Date.FISCALSEMESTER" ]
           }
         } ]
       }
     } ],
     "logicalTableSources" : [ {
-      "name" : "D_Promotion",
+      "name" : "D_Order_Date",
       "disable" : false,
       "tableMapping" : {
-        "tables" : [ "physicalTable:Sales.ADMIN.D_Promotion" ]
+        "tables" : [ "physicalTable:Sales.ADMIN.D_Order_Date" ]
       },
       "combineWithOtherFragments" : false,
       "enableFragmentSelection" : false,
       "distinctValues" : false
     } ],
-    "primaryKey" : [ "Promotionkey" ]
+    "primaryKey" : [ "Datekey" ]
   }
 }

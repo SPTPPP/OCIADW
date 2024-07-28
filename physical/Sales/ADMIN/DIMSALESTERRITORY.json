@@ -1,0 +1,41 @@
+{
+  "physicalTable" : {
+    "name" : "DIMSALESTERRITORY",
+    "sourceType" : "TABLE",
+    "physicalColumns" : [ {
+      "name" : "SALESTERRITORYKEY",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "SALESTERRITORYALTERNATEKEY",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "SALESTERRITORYREGION",
+      "dataType" : "VARCHAR",
+      "length" : 50,
+      "nullable" : false
+    }, {
+      "name" : "SALESTERRITORYCOUNTRY",
+      "dataType" : "VARCHAR",
+      "length" : 50,
+      "nullable" : false
+    }, {
+      "name" : "SALESTERRITORYGROUP",
+      "dataType" : "VARCHAR",
+      "length" : 50,
+      "nullable" : true
+    }, {
+      "name" : "SALESTERRITORYIMAGE",
+      "dataType" : "LONGVARBINARY",
+      "length" : 0,
+      "nullable" : true
+    } ],
+    "caching" : {
+      "enable" : true,
+      "expiryTime" : 0
+    }
+  }
+}

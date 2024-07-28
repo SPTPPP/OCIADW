@@ -131,7 +131,7 @@
       "cardinality" : "MANY_TO_ONE",
       "drivingTable" : "None"
     }, {
-      "rightTable" : "logicalTable:Sales.D Department Group",
+      "rightTable" : "logicalTable:Sales.D Account",
       "joinType" : "INNER",
       "cardinality" : "MANY_TO_ONE",
       "drivingTable" : "None"
@@ -141,12 +141,12 @@
       "cardinality" : "MANY_TO_ONE",
       "drivingTable" : "None"
     }, {
-      "rightTable" : "logicalTable:Sales.D Scenerio",
+      "rightTable" : "logicalTable:Sales.D Department Group",
       "joinType" : "INNER",
       "cardinality" : "MANY_TO_ONE",
       "drivingTable" : "None"
     }, {
-      "rightTable" : "logicalTable:Sales.D Account",
+      "rightTable" : "logicalTable:Sales.D Scenerio",
       "joinType" : "INNER",
       "cardinality" : "MANY_TO_ONE",
       "drivingTable" : "None"

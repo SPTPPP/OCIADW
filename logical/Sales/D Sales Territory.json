@@ -1,0 +1,102 @@
+{
+  "logicalTable" : {
+    "name" : "D Sales Territory",
+    "type" : "DIMENSION",
+    "logicalColumns" : [ {
+      "name" : "Salesterritorykey",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "D_Sales_Territory",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Sales.ADMIN.D_Sales_Territory.SALESTERRITORYKEY" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Salesterritoryalternatekey",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "D_Sales_Territory",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Sales.ADMIN.D_Sales_Territory.SALESTERRITORYALTERNATEKEY" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Salesterritoryregion",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "D_Sales_Territory",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Sales.ADMIN.D_Sales_Territory.SALESTERRITORYREGION" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Salesterritorycountry",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "D_Sales_Territory",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Sales.ADMIN.D_Sales_Territory.SALESTERRITORYCOUNTRY" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Salesterritorygroup",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "D_Sales_Territory",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Sales.ADMIN.D_Sales_Territory.SALESTERRITORYGROUP" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Salesterritoryimage",
+      "dataType" : "LONGVARBINARY",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "D_Sales_Territory",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Sales.ADMIN.D_Sales_Territory.SALESTERRITORYIMAGE" ]
+          }
+        } ]
+      }
+    } ],
+    "logicalTableSources" : [ {
+      "name" : "D_Sales_Territory",
+      "disable" : false,
+      "tableMapping" : {
+        "tables" : [ "physicalTable:Sales.ADMIN.D_Sales_Territory" ]
+      },
+      "combineWithOtherFragments" : false,
+      "enableFragmentSelection" : false,
+      "distinctValues" : false
+    } ],
+    "primaryKey" : [ "Salesterritorykey" ]
+  }
+}

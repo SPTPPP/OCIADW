@@ -446,6 +446,7 @@
       "combineWithOtherFragments" : false,
       "enableFragmentSelection" : false,
       "distinctValues" : false
-    } ]
+    } ],
+    "primaryKey" : [ "Employeekey" ]
   }
 }

@@ -1,0 +1,7 @@
+{
+  "physicalTable" : {
+    "name" : "D_Currency",
+    "sourceTable" : "physicalTable:Sales.ADMIN.DIMCURRENCY",
+    "overrideSourceCacheSetting" : false
+  }
+}

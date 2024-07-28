@@ -2,6 +2,79 @@
   "physicalTable" : {
     "name" : "F_Reseller_Sales",
     "sourceTable" : "physicalTable:Sales.ADMIN.FACTRESELLERSALES",
-    "overrideSourceCacheSetting" : false
+    "overrideSourceCacheSetting" : false,
+    "joins" : [ {
+      "rightTable" : "physicalTable:Sales.ADMIN.D_Currency",
+      "useJoinExpression" : false,
+      "joinConditions" : [ {
+        "leftColumn" : "physicalColumn:Sales.ADMIN.F_Reseller_Sales.CURRENCYKEY",
+        "rightColumn" : "physicalColumn:Sales.ADMIN.D_Currency.CURRENCYKEY"
+      } ],
+      "joinType" : "INNER",
+      "cardinality" : "MANY_TO_ONE"
+    }, {
+      "rightTable" : "physicalTable:Sales.ADMIN.D_Due_Date",
+      "useJoinExpression" : false,
+      "joinConditions" : [ {
+        "leftColumn" : "physicalColumn:Sales.ADMIN.F_Reseller_Sales.DUEDATEKEY",
+        "rightColumn" : "physicalColumn:Sales.ADMIN.D_Due_Date.DATEKEY"
+      } ],
+      "joinType" : "INNER",
+      "cardinality" : "MANY_TO_ONE"
+    }, {
+      "rightTable" : "physicalTable:Sales.ADMIN.D_Employee",
+      "useJoinExpression" : false,
+      "joinConditions" : [ {
+        "leftColumn" : "physicalColumn:Sales.ADMIN.F_Reseller_Sales.EMPLOYEEKEY",
+        "rightColumn" : "physicalColumn:Sales.ADMIN.D_Employee.EMPLOYEEKEY"
+      } ],
+      "joinType" : "INNER",
+      "cardinality" : "MANY_TO_ONE"
+    }, {
+      "rightTable" : "physicalTable:Sales.ADMIN.D_Order_Date",
+      "useJoinExpression" : false,
+      "joinConditions" : [ {
+        "leftColumn" : "physicalColumn:Sales.ADMIN.F_Reseller_Sales.ORDERDATEKEY",
+        "rightColumn" : "physicalColumn:Sales.ADMIN.D_Order_Date.DATEKEY"
+      } ],
+      "joinType" : "INNER",
+      "cardinality" : "MANY_TO_ONE"
+    }, {
+      "rightTable" : "physicalTable:Sales.ADMIN.D_Product",
+      "useJoinExpression" : false,
+      "joinConditions" : [ {
+        "leftColumn" : "physicalColumn:Sales.ADMIN.F_Reseller_Sales.PRODUCTKEY",
+        "rightColumn" : "physicalColumn:Sales.ADMIN.D_Product.PRODUCTKEY"
+      } ],
+      "joinType" : "INNER",
+      "cardinality" : "MANY_TO_ONE"
+    }, {
+      "rightTable" : "physicalTable:Sales.ADMIN.D_Promotion",
+      "useJoinExpression" : false,
+      "joinConditions" : [ {
+        "leftColumn" : "physicalColumn:Sales.ADMIN.F_Reseller_Sales.PROMOTIONKEY",
+        "rightColumn" : "physicalColumn:Sales.ADMIN.D_Promotion.PROMOTIONKEY"
+      } ],
+      "joinType" : "INNER",
+      "cardinality" : "MANY_TO_ONE"
+    }, {
+      "rightTable" : "physicalTable:Sales.ADMIN.D_Ship_Date",
+      "useJoinExpression" : false,
+      "joinConditions" : [ {
+        "leftColumn" : "physicalColumn:Sales.ADMIN.F_Reseller_Sales.SHIPDATEKEY",
+        "rightColumn" : "physicalColumn:Sales.ADMIN.D_Ship_Date.DATEKEY"
+      } ],
+      "joinType" : "INNER",
+      "cardinality" : "MANY_TO_ONE"
+    }, {
+      "rightTable" : "physicalTable:Sales.ADMIN.D_Sales_Territory",
+      "useJoinExpression" : false,
+      "joinConditions" : [ {
+        "leftColumn" : "physicalColumn:Sales.ADMIN.F_Reseller_Sales.SALESTERRITORYKEY",
+        "rightColumn" : "physicalColumn:Sales.ADMIN.D_Sales_Territory.SALESTERRITORYKEY"
+      } ],
+      "joinType" : "INNER",
+      "cardinality" : "MANY_TO_ONE"
+    } ]
   }
 }

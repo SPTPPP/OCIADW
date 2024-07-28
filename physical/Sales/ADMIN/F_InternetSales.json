@@ -2,6 +2,61 @@
   "physicalTable" : {
     "name" : "F_InternetSales",
     "sourceTable" : "physicalTable:Sales.ADMIN.FACTINTERNETSALES",
-    "overrideSourceCacheSetting" : false
+    "overrideSourceCacheSetting" : false,
+    "joins" : [ {
+      "rightTable" : "physicalTable:Sales.ADMIN.D_Ship_Date",
+      "useJoinExpression" : false,
+      "joinConditions" : [ {
+        "leftColumn" : "physicalColumn:Sales.ADMIN.F_InternetSales.SHIPDATEKEY",
+        "rightColumn" : "physicalColumn:Sales.ADMIN.D_Ship_Date.DATEKEY"
+      } ],
+      "joinType" : "INNER",
+      "cardinality" : "MANY_TO_ONE"
+    }, {
+      "rightTable" : "physicalTable:Sales.ADMIN.D_Currency",
+      "useJoinExpression" : false,
+      "joinConditions" : [ {
+        "leftColumn" : "physicalColumn:Sales.ADMIN.F_InternetSales.CURRENCYKEY",
+        "rightColumn" : "physicalColumn:Sales.ADMIN.D_Currency.CURRENCYKEY"
+      } ],
+      "joinType" : "INNER",
+      "cardinality" : "MANY_TO_ONE"
+    }, {
+      "rightTable" : "physicalTable:Sales.ADMIN.D_Due_Date",
+      "useJoinExpression" : false,
+      "joinConditions" : [ {
+        "leftColumn" : "physicalColumn:Sales.ADMIN.F_InternetSales.DUEDATEKEY",
+        "rightColumn" : "physicalColumn:Sales.ADMIN.D_Due_Date.DATEKEY"
+      } ],
+      "joinType" : "INNER",
+      "cardinality" : "MANY_TO_ONE"
+    }, {
+      "rightTable" : "physicalTable:Sales.ADMIN.D_Promotion",
+      "useJoinExpression" : false,
+      "joinConditions" : [ {
+        "leftColumn" : "physicalColumn:Sales.ADMIN.F_InternetSales.PROMOTIONKEY",
+        "rightColumn" : "physicalColumn:Sales.ADMIN.D_Promotion.PROMOTIONKEY"
+      } ],
+      "joinType" : "INNER",
+      "cardinality" : "MANY_TO_ONE"
+    }, {
+      "rightTable" : "physicalTable:Sales.ADMIN.D_Product",
+      "useJoinExpression" : false,
+      "joinConditions" : [ {
+        "leftColumn" : "physicalColumn:Sales.ADMIN.F_InternetSales.PRODUCTKEY",
+        "rightColumn" : "physicalColumn:Sales.ADMIN.D_Product.PRODUCTKEY"
+      } ],
+      "joinType" : "INNER",
+      "cardinality" : "MANY_TO_ONE"
+    }, {
+      "rightTable" : "physicalTable:Sales.ADMIN.D_Order_Date",
+      "useJoinExpression" : false,
+      "joinConditions" : [ {
+        "leftColumn" : "physicalColumn:Sales.ADMIN.F_InternetSales.ORDERDATEKEY",
+        "rightColumn" : "physicalColumn:Sales.ADMIN.D_Order_Date.DATEKEY"
+      } ],
+      "joinType" : "INNER",
+      "cardinality" : "MANY_TO_ONE"
+    } ]
   }
 }

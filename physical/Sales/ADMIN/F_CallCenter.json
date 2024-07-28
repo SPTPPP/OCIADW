@@ -2,6 +2,16 @@
   "physicalTable" : {
     "name" : "F_CallCenter",
     "sourceTable" : "physicalTable:Sales.ADMIN.FACTCALLCENTER",
-    "overrideSourceCacheSetting" : false
+    "overrideSourceCacheSetting" : false,
+    "joins" : [ {
+      "rightTable" : "physicalTable:Sales.ADMIN.D_Date",
+      "useJoinExpression" : false,
+      "joinConditions" : [ {
+        "leftColumn" : "physicalColumn:Sales.ADMIN.F_CallCenter.DATEKEY",
+        "rightColumn" : "physicalColumn:Sales.ADMIN.D_Date.DATEKEY"
+      } ],
+      "joinType" : "INNER",
+      "cardinality" : "MANY_TO_ONE"
+    } ]
   }
 }

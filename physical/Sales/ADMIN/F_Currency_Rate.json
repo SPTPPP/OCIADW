@@ -2,6 +2,25 @@
   "physicalTable" : {
     "name" : "F_Currency_Rate",
     "sourceTable" : "physicalTable:Sales.ADMIN.FACTCURRENCYRATE",
-    "overrideSourceCacheSetting" : false
+    "overrideSourceCacheSetting" : false,
+    "joins" : [ {
+      "rightTable" : "physicalTable:Sales.ADMIN.D_Date",
+      "useJoinExpression" : false,
+      "joinConditions" : [ {
+        "leftColumn" : "physicalColumn:Sales.ADMIN.F_Currency_Rate.DATEKEY",
+        "rightColumn" : "physicalColumn:Sales.ADMIN.D_Date.DATEKEY"
+      } ],
+      "joinType" : "INNER",
+      "cardinality" : "MANY_TO_ONE"
+    }, {
+      "rightTable" : "physicalTable:Sales.ADMIN.D_Currency",
+      "useJoinExpression" : false,
+      "joinConditions" : [ {
+        "leftColumn" : "physicalColumn:Sales.ADMIN.F_Currency_Rate.CURRENCYKEY",
+        "rightColumn" : "physicalColumn:Sales.ADMIN.D_Currency.CURRENCYKEY"
+      } ],
+      "joinType" : "INNER",
+      "cardinality" : "MANY_TO_ONE"
+    } ]
   }
 }

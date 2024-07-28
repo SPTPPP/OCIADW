@@ -1,0 +1,66 @@
+{
+  "physicalTable" : {
+    "name" : "DIMGEOGRAPHY",
+    "sourceType" : "TABLE",
+    "physicalColumns" : [ {
+      "name" : "GEOGRAPHYKEY",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "CITY",
+      "dataType" : "VARCHAR",
+      "length" : 30,
+      "nullable" : true
+    }, {
+      "name" : "STATEPROVINCECODE",
+      "dataType" : "VARCHAR",
+      "length" : 3,
+      "nullable" : true
+    }, {
+      "name" : "STATEPROVINCENAME",
+      "dataType" : "VARCHAR",
+      "length" : 50,
+      "nullable" : true
+    }, {
+      "name" : "COUNTRYREGIONCODE",
+      "dataType" : "VARCHAR",
+      "length" : 3,
+      "nullable" : true
+    }, {
+      "name" : "ENGLISHCOUNTRYREGIONNAME",
+      "dataType" : "VARCHAR",
+      "length" : 50,
+      "nullable" : true
+    }, {
+      "name" : "SPANISHCOUNTRYREGIONNAME",
+      "dataType" : "VARCHAR",
+      "length" : 50,
+      "nullable" : true
+    }, {
+      "name" : "FRENCHCOUNTRYREGIONNAME",
+      "dataType" : "VARCHAR",
+      "length" : 50,
+      "nullable" : true
+    }, {
+      "name" : "POSTALCODE",
+      "dataType" : "VARCHAR",
+      "length" : 15,
+      "nullable" : true
+    }, {
+      "name" : "SALESTERRITORYKEY",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "IPADDRESSLOCATOR",
+      "dataType" : "VARCHAR",
+      "length" : 15,
+      "nullable" : true
+    } ],
+    "caching" : {
+      "enable" : true,
+      "expiryTime" : 0
+    }
+  }
+}

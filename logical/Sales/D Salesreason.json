@@ -1,6 +1,6 @@
 {
   "logicalTable" : {
-    "name" : "D Salesperson",
+    "name" : "D Salesreason",
     "type" : "DIMENSION",
     "logicalColumns" : [ {
       "name" : "Salesreasonkey",
@@ -9,10 +9,10 @@
       "logicalColumnSource" : {
         "derivedFrom" : "PHYSICAL_COLUMNS",
         "physicalMappings" : [ {
-          "logicalTableSource" : "D_SalesPerson",
+          "logicalTableSource" : "D_SalesReason",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
-            "expressionObjects" : [ "physicalColumn:Sales.ADMIN.D_SalesPerson.SALESREASONKEY" ]
+            "expressionObjects" : [ "physicalColumn:Sales.ADMIN.D_SalesReason.SALESREASONKEY" ]
           }
         } ]
       }
@@ -23,10 +23,10 @@
       "logicalColumnSource" : {
         "derivedFrom" : "PHYSICAL_COLUMNS",
         "physicalMappings" : [ {
-          "logicalTableSource" : "D_SalesPerson",
+          "logicalTableSource" : "D_SalesReason",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
-            "expressionObjects" : [ "physicalColumn:Sales.ADMIN.D_SalesPerson.SALESREASONALTERNATEKEY" ]
+            "expressionObjects" : [ "physicalColumn:Sales.ADMIN.D_SalesReason.SALESREASONALTERNATEKEY" ]
           }
         } ]
       }
@@ -37,10 +37,10 @@
       "logicalColumnSource" : {
         "derivedFrom" : "PHYSICAL_COLUMNS",
         "physicalMappings" : [ {
-          "logicalTableSource" : "D_SalesPerson",
+          "logicalTableSource" : "D_SalesReason",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
-            "expressionObjects" : [ "physicalColumn:Sales.ADMIN.D_SalesPerson.SALESREASONNAME" ]
+            "expressionObjects" : [ "physicalColumn:Sales.ADMIN.D_SalesReason.SALESREASONNAME" ]
           }
         } ]
       }
@@ -51,23 +51,24 @@
       "logicalColumnSource" : {
         "derivedFrom" : "PHYSICAL_COLUMNS",
         "physicalMappings" : [ {
-          "logicalTableSource" : "D_SalesPerson",
+          "logicalTableSource" : "D_SalesReason",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
-            "expressionObjects" : [ "physicalColumn:Sales.ADMIN.D_SalesPerson.SALESREASONREASONTYPE" ]
+            "expressionObjects" : [ "physicalColumn:Sales.ADMIN.D_SalesReason.SALESREASONREASONTYPE" ]
           }
         } ]
       }
     } ],
     "logicalTableSources" : [ {
-      "name" : "D_SalesPerson",
+      "name" : "D_SalesReason",
       "disable" : false,
       "tableMapping" : {
-        "tables" : [ "physicalTable:Sales.ADMIN.D_SalesPerson" ]
+        "tables" : [ "physicalTable:Sales.ADMIN.D_SalesReason" ]
       },
       "combineWithOtherFragments" : false,
       "enableFragmentSelection" : false,
       "distinctValues" : false
-    } ]
+    } ],
+    "primaryKey" : [ "Salesreasonkey" ]
   }
 }
