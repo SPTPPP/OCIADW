@@ -1,9 +1,9 @@
 {
   "logicalTable" : {
-    "name" : "D_Date",
+    "name" : "D Date",
     "type" : "DIMENSION",
     "logicalColumns" : [ {
-      "name" : "DATEKEY",
+      "name" : "Datekey",
       "dataType" : "NUMERIC",
       "writeable" : false,
       "logicalColumnSource" : {
@@ -17,7 +17,7 @@
         } ]
       }
     }, {
-      "name" : "FULLDATEALTERNATEKEY",
+      "name" : "Fulldatealternatekey",
       "dataType" : "VARCHAR",
       "writeable" : false,
       "logicalColumnSource" : {
@@ -31,7 +31,7 @@
         } ]
       }
     }, {
-      "name" : "DAYNUMBEROFWEEK",
+      "name" : "Daynumberofweek",
       "dataType" : "NUMERIC",
       "writeable" : false,
       "logicalColumnSource" : {
@@ -45,7 +45,7 @@
         } ]
       }
     }, {
-      "name" : "ENGLISHDAYNAMEOFWEEK",
+      "name" : "Englishdaynameofweek",
       "dataType" : "VARCHAR",
       "writeable" : false,
       "logicalColumnSource" : {
@@ -59,7 +59,7 @@
         } ]
       }
     }, {
-      "name" : "SPANISHDAYNAMEOFWEEK",
+      "name" : "Spanishdaynameofweek",
       "dataType" : "VARCHAR",
       "writeable" : false,
       "logicalColumnSource" : {
@@ -73,7 +73,7 @@
         } ]
       }
     }, {
-      "name" : "FRENCHDAYNAMEOFWEEK",
+      "name" : "Frenchdaynameofweek",
       "dataType" : "VARCHAR",
       "writeable" : false,
       "logicalColumnSource" : {
@@ -87,7 +87,7 @@
         } ]
       }
     }, {
-      "name" : "DAYNUMBEROFMONTH",
+      "name" : "Daynumberofmonth",
       "dataType" : "NUMERIC",
       "writeable" : false,
       "logicalColumnSource" : {
@@ -101,7 +101,7 @@
         } ]
       }
     }, {
-      "name" : "DAYNUMBEROFYEAR",
+      "name" : "Daynumberofyear",
       "dataType" : "NUMERIC",
       "writeable" : false,
       "logicalColumnSource" : {
@@ -115,7 +115,7 @@
         } ]
       }
     }, {
-      "name" : "WEEKNUMBEROFYEAR",
+      "name" : "Weeknumberofyear",
       "dataType" : "NUMERIC",
       "writeable" : false,
       "logicalColumnSource" : {
@@ -129,7 +129,7 @@
         } ]
       }
     }, {
-      "name" : "ENGLISHMONTHNAME",
+      "name" : "Englishmonthname",
       "dataType" : "VARCHAR",
       "writeable" : false,
       "logicalColumnSource" : {
@@ -143,7 +143,7 @@
         } ]
       }
     }, {
-      "name" : "SPANISHMONTHNAME",
+      "name" : "Spanishmonthname",
       "dataType" : "VARCHAR",
       "writeable" : false,
       "logicalColumnSource" : {
@@ -157,7 +157,7 @@
         } ]
       }
     }, {
-      "name" : "FRENCHMONTHNAME",
+      "name" : "Frenchmonthname",
       "dataType" : "VARCHAR",
       "writeable" : false,
       "logicalColumnSource" : {
@@ -171,7 +171,7 @@
         } ]
       }
     }, {
-      "name" : "MONTHNUMBEROFYEAR",
+      "name" : "Monthnumberofyear",
       "dataType" : "NUMERIC",
       "writeable" : false,
       "logicalColumnSource" : {
@@ -185,7 +185,7 @@
         } ]
       }
     }, {
-      "name" : "CALENDARQUARTER",
+      "name" : "Calendarquarter",
       "dataType" : "NUMERIC",
       "writeable" : false,
       "logicalColumnSource" : {
@@ -199,7 +199,7 @@
         } ]
       }
     }, {
-      "name" : "CALENDARYEAR",
+      "name" : "Calendaryear",
       "dataType" : "NUMERIC",
       "writeable" : false,
       "logicalColumnSource" : {
@@ -213,7 +213,7 @@
         } ]
       }
     }, {
-      "name" : "CALENDARSEMESTER",
+      "name" : "Calendarsemester",
       "dataType" : "NUMERIC",
       "writeable" : false,
       "logicalColumnSource" : {
@@ -227,7 +227,7 @@
         } ]
       }
     }, {
-      "name" : "FISCALQUARTER",
+      "name" : "Fiscalquarter",
       "dataType" : "NUMERIC",
       "writeable" : false,
       "logicalColumnSource" : {
@@ -241,7 +241,7 @@
         } ]
       }
     }, {
-      "name" : "FISCALYEAR",
+      "name" : "Fiscalyear",
       "dataType" : "NUMERIC",
       "writeable" : false,
       "logicalColumnSource" : {
@@ -255,7 +255,7 @@
         } ]
       }
     }, {
-      "name" : "FISCALSEMESTER",
+      "name" : "Fiscalsemester",
       "dataType" : "NUMERIC",
       "writeable" : false,
       "logicalColumnSource" : {
@@ -279,6 +279,6 @@
       "enableFragmentSelection" : false,
       "distinctValues" : false
     } ],
-    "primaryKey" : [ "DATEKEY" ]
+    "primaryKey" : [ "Datekey" ]
   }
 }

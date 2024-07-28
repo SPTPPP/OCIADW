@@ -1,9 +1,9 @@
 {
   "logicalTable" : {
-    "name" : "D_Account",
+    "name" : "D Account",
     "type" : "DIMENSION",
     "logicalColumns" : [ {
-      "name" : "ACCOUNTKEY",
+      "name" : "Accountkey",
       "dataType" : "NUMERIC",
       "writeable" : false,
       "logicalColumnSource" : {
@@ -17,7 +17,7 @@
         } ]
       }
     }, {
-      "name" : "PARENTACCOUNTKEY",
+      "name" : "Parentaccountkey",
       "dataType" : "NUMERIC",
       "writeable" : false,
       "logicalColumnSource" : {
@@ -31,7 +31,7 @@
         } ]
       }
     }, {
-      "name" : "ACCOUNTCODEALTERNATEKEY",
+      "name" : "Accountcodealternatekey",
       "dataType" : "NUMERIC",
       "writeable" : false,
       "logicalColumnSource" : {
@@ -45,7 +45,7 @@
         } ]
       }
     }, {
-      "name" : "PARENTACCOUNTCODEALTERNATEKEY",
+      "name" : "Parentaccountcodealternatekey",
       "dataType" : "NUMERIC",
       "writeable" : false,
       "logicalColumnSource" : {
@@ -59,7 +59,7 @@
         } ]
       }
     }, {
-      "name" : "ACCOUNTDESCRIPTION",
+      "name" : "Accountdescription",
       "dataType" : "VARCHAR",
       "writeable" : false,
       "logicalColumnSource" : {
@@ -73,7 +73,7 @@
         } ]
       }
     }, {
-      "name" : "ACCOUNTTYPE",
+      "name" : "Accounttype",
       "dataType" : "VARCHAR",
       "writeable" : false,
       "logicalColumnSource" : {
@@ -87,7 +87,7 @@
         } ]
       }
     }, {
-      "name" : "OPERATOR",
+      "name" : "Operator",
       "dataType" : "VARCHAR",
       "writeable" : false,
       "logicalColumnSource" : {
@@ -101,7 +101,7 @@
         } ]
       }
     }, {
-      "name" : "CUSTOMMEMBERS",
+      "name" : "Custommembers",
       "dataType" : "VARCHAR",
       "writeable" : false,
       "logicalColumnSource" : {
@@ -115,7 +115,7 @@
         } ]
       }
     }, {
-      "name" : "VALUETYPE",
+      "name" : "Valuetype",
       "dataType" : "VARCHAR",
       "writeable" : false,
       "logicalColumnSource" : {
@@ -129,7 +129,7 @@
         } ]
       }
     }, {
-      "name" : "CUSTOMMEMBEROPTIONS",
+      "name" : "Custommemberoptions",
       "dataType" : "VARCHAR",
       "writeable" : false,
       "logicalColumnSource" : {
@@ -153,6 +153,6 @@
       "enableFragmentSelection" : false,
       "distinctValues" : false
     } ],
-    "primaryKey" : [ "ACCOUNTKEY" ]
+    "primaryKey" : [ "Accountkey" ]
   }
 }

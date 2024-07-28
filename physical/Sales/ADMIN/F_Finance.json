@@ -48,6 +48,15 @@
       } ],
       "joinType" : "INNER",
       "cardinality" : "MANY_TO_ONE"
+    }, {
+      "rightTable" : "physicalTable:Sales.ADMIN.DIMACCOUNT",
+      "useJoinExpression" : false,
+      "joinConditions" : [ {
+        "leftColumn" : "physicalColumn:Sales.ADMIN.F_Finance.ACCOUNTKEY",
+        "rightColumn" : "physicalColumn:Sales.ADMIN.DIMACCOUNT.ACCOUNTKEY"
+      } ],
+      "joinType" : "INNER",
+      "cardinality" : "MANY_TO_ONE"
     } ]
   }
 }

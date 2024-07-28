@@ -1,0 +1,59 @@
+{
+  "logicalTable" : {
+    "name" : "F Internet Sales Reason",
+    "type" : "FACT",
+    "logicalColumns" : [ {
+      "name" : "Salesordernumber",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "F_Internet_Sales_Reason",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Sales.ADMIN.F_Internet_Sales_Reason.SALESORDERNUMBER" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Salesorderlinenumber",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "F_Internet_Sales_Reason",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Sales.ADMIN.F_Internet_Sales_Reason.SALESORDERLINENUMBER" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Salesreasonkey",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "F_Internet_Sales_Reason",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Sales.ADMIN.F_Internet_Sales_Reason.SALESREASONKEY" ]
+          }
+        } ]
+      }
+    } ],
+    "logicalTableSources" : [ {
+      "name" : "F_Internet_Sales_Reason",
+      "disable" : false,
+      "tableMapping" : {
+        "tables" : [ "physicalTable:Sales.ADMIN.F_Internet_Sales_Reason" ]
+      },
+      "combineWithOtherFragments" : false,
+      "enableFragmentSelection" : false,
+      "distinctValues" : false
+    } ]
+  }
+}

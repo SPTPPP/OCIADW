@@ -1,9 +1,9 @@
 {
   "logicalTable" : {
-    "name" : "F_Finance",
+    "name" : "F Finance",
     "type" : "FACT",
     "logicalColumns" : [ {
-      "name" : "FINANCEKEY",
+      "name" : "Financekey",
       "dataType" : "NUMERIC",
       "writeable" : false,
       "logicalColumnSource" : {
@@ -17,7 +17,7 @@
         } ]
       }
     }, {
-      "name" : "DATEKEY",
+      "name" : "Datekey",
       "dataType" : "NUMERIC",
       "writeable" : false,
       "logicalColumnSource" : {
@@ -31,7 +31,7 @@
         } ]
       }
     }, {
-      "name" : "ORGANIZATIONKEY",
+      "name" : "Organizationkey",
       "dataType" : "NUMERIC",
       "writeable" : false,
       "logicalColumnSource" : {
@@ -45,7 +45,7 @@
         } ]
       }
     }, {
-      "name" : "DEPARTMENTGROUPKEY",
+      "name" : "Departmentgroupkey",
       "dataType" : "NUMERIC",
       "writeable" : false,
       "logicalColumnSource" : {
@@ -59,7 +59,7 @@
         } ]
       }
     }, {
-      "name" : "SCENARIOKEY",
+      "name" : "Scenariokey",
       "dataType" : "NUMERIC",
       "writeable" : false,
       "logicalColumnSource" : {
@@ -73,7 +73,7 @@
         } ]
       }
     }, {
-      "name" : "ACCOUNTKEY",
+      "name" : "Accountkey",
       "dataType" : "NUMERIC",
       "writeable" : false,
       "logicalColumnSource" : {
@@ -87,7 +87,7 @@
         } ]
       }
     }, {
-      "name" : "AMOUNT",
+      "name" : "Amount",
       "dataType" : "NUMERIC",
       "writeable" : false,
       "logicalColumnSource" : {
@@ -101,7 +101,7 @@
         } ]
       }
     }, {
-      "name" : "DATE_",
+      "name" : "Date_",
       "dataType" : "TIMESTAMP",
       "writeable" : false,
       "logicalColumnSource" : {
@@ -126,27 +126,27 @@
       "distinctValues" : false
     } ],
     "joins" : [ {
-      "rightTable" : "logicalTable:Sales.D_Account",
+      "rightTable" : "logicalTable:Sales.D Date",
       "joinType" : "INNER",
       "cardinality" : "MANY_TO_ONE",
       "drivingTable" : "None"
     }, {
-      "rightTable" : "logicalTable:Sales.D_Date",
+      "rightTable" : "logicalTable:Sales.D Department Group",
       "joinType" : "INNER",
       "cardinality" : "MANY_TO_ONE",
       "drivingTable" : "None"
     }, {
-      "rightTable" : "logicalTable:Sales.D_Department_Group",
+      "rightTable" : "logicalTable:Sales.D Organizatoion",
       "joinType" : "INNER",
       "cardinality" : "MANY_TO_ONE",
       "drivingTable" : "None"
     }, {
-      "rightTable" : "logicalTable:Sales.D_Organizatoion",
+      "rightTable" : "logicalTable:Sales.D Scenerio",
       "joinType" : "INNER",
       "cardinality" : "MANY_TO_ONE",
       "drivingTable" : "None"
     }, {
-      "rightTable" : "logicalTable:Sales.D_Scenerio",
+      "rightTable" : "logicalTable:Sales.D Account",
       "joinType" : "INNER",
       "cardinality" : "MANY_TO_ONE",
       "drivingTable" : "None"

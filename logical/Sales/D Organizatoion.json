@@ -1,9 +1,9 @@
 {
   "logicalTable" : {
-    "name" : "D_Organizatoion",
+    "name" : "D Organizatoion",
     "type" : "DIMENSION",
     "logicalColumns" : [ {
-      "name" : "ORGANIZATIONKEY",
+      "name" : "Organizationkey",
       "dataType" : "NUMERIC",
       "writeable" : false,
       "logicalColumnSource" : {
@@ -17,7 +17,7 @@
         } ]
       }
     }, {
-      "name" : "PARENTORGANIZATIONKEY",
+      "name" : "Parentorganizationkey",
       "dataType" : "NUMERIC",
       "writeable" : false,
       "logicalColumnSource" : {
@@ -31,7 +31,7 @@
         } ]
       }
     }, {
-      "name" : "PERCENTAGEOFOWNERSHIP",
+      "name" : "Percentageofownership",
       "dataType" : "VARCHAR",
       "writeable" : false,
       "logicalColumnSource" : {
@@ -45,7 +45,7 @@
         } ]
       }
     }, {
-      "name" : "ORGANIZATIONNAME",
+      "name" : "Organizationname",
       "dataType" : "VARCHAR",
       "writeable" : false,
       "logicalColumnSource" : {
@@ -59,7 +59,7 @@
         } ]
       }
     }, {
-      "name" : "CURRENCYKEY",
+      "name" : "Currencykey",
       "dataType" : "NUMERIC",
       "writeable" : false,
       "logicalColumnSource" : {

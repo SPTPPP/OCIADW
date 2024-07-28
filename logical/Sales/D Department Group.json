@@ -1,9 +1,9 @@
 {
   "logicalTable" : {
-    "name" : "D_Department_Group",
+    "name" : "D Department Group",
     "type" : "DIMENSION",
     "logicalColumns" : [ {
-      "name" : "DEPARTMENTGROUPKEY",
+      "name" : "Departmentgroupkey",
       "dataType" : "NUMERIC",
       "writeable" : false,
       "logicalColumnSource" : {
@@ -17,7 +17,7 @@
         } ]
       }
     }, {
-      "name" : "PARENTDEPARTMENTGROUPKEY",
+      "name" : "Parentdepartmentgroupkey",
       "dataType" : "NUMERIC",
       "writeable" : false,
       "logicalColumnSource" : {
@@ -31,7 +31,7 @@
         } ]
       }
     }, {
-      "name" : "DEPARTMENTGROUPNAME",
+      "name" : "Departmentgroupname",
       "dataType" : "VARCHAR",
       "writeable" : false,
       "logicalColumnSource" : {
@@ -55,6 +55,6 @@
       "enableFragmentSelection" : false,
       "distinctValues" : false
     } ],
-    "primaryKey" : [ "DEPARTMENTGROUPKEY" ]
+    "primaryKey" : [ "Departmentgroupkey" ]
   }
 }

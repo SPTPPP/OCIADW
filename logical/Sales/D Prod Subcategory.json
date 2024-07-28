@@ -1,0 +1,101 @@
+{
+  "logicalTable" : {
+    "name" : "D Prod Subcategory",
+    "type" : "DIMENSION",
+    "logicalColumns" : [ {
+      "name" : "Productsubcategorykey",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "D_Prod_Subcategory",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Sales.ADMIN.D_Prod_Subcategory.PRODUCTSUBCATEGORYKEY" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Productsubcategoryalternatekey",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "D_Prod_Subcategory",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Sales.ADMIN.D_Prod_Subcategory.PRODUCTSUBCATEGORYALTERNATEKEY" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Englishproductsubcategoryname",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "D_Prod_Subcategory",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Sales.ADMIN.D_Prod_Subcategory.ENGLISHPRODUCTSUBCATEGORYNAME" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Spanishproductsubcategoryname",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "D_Prod_Subcategory",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Sales.ADMIN.D_Prod_Subcategory.SPANISHPRODUCTSUBCATEGORYNAME" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Frenchproductsubcategoryname",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "D_Prod_Subcategory",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Sales.ADMIN.D_Prod_Subcategory.FRENCHPRODUCTSUBCATEGORYNAME" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Productcategorykey",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "D_Prod_Subcategory",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Sales.ADMIN.D_Prod_Subcategory.PRODUCTCATEGORYKEY" ]
+          }
+        } ]
+      }
+    } ],
+    "logicalTableSources" : [ {
+      "name" : "D_Prod_Subcategory",
+      "disable" : false,
+      "tableMapping" : {
+        "tables" : [ "physicalTable:Sales.ADMIN.D_Prod_Subcategory" ]
+      },
+      "combineWithOtherFragments" : false,
+      "enableFragmentSelection" : false,
+      "distinctValues" : false
+    } ]
+  }
+}
