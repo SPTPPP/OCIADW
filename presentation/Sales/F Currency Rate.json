@@ -1,0 +1,21 @@
+{
+  "presentationTable" : {
+    "name" : "F Currency Rate",
+    "presentationColumns" : [ {
+      "name" : "Currencykey",
+      "sourceLogicalColumn" : "logicalColumn:Sales.F Currency Rate.Currencykey"
+    }, {
+      "name" : "Datekey",
+      "sourceLogicalColumn" : "logicalColumn:Sales.F Currency Rate.Datekey"
+    }, {
+      "name" : "Averagerate",
+      "sourceLogicalColumn" : "logicalColumn:Sales.F Currency Rate.Averagerate"
+    }, {
+      "name" : "Endofdayrate",
+      "sourceLogicalColumn" : "logicalColumn:Sales.F Currency Rate.Endofdayrate"
+    }, {
+      "name" : "Date_",
+      "sourceLogicalColumn" : "logicalColumn:Sales.F Currency Rate.Date_"
+    } ]
+  }
+}

@@ -57,6 +57,15 @@
       } ],
       "joinType" : "INNER",
       "cardinality" : "MANY_TO_ONE"
+    }, {
+      "rightTable" : "physicalTable:Sales.ADMIN.D_Customer",
+      "useJoinExpression" : false,
+      "joinConditions" : [ {
+        "leftColumn" : "physicalColumn:Sales.ADMIN.F_InternetSales.CUSTOMERKEY",
+        "rightColumn" : "physicalColumn:Sales.ADMIN.D_Customer.CUSTOMERKEY"
+      } ],
+      "joinType" : "INNER",
+      "cardinality" : "MANY_TO_ONE"
     } ]
   }
 }

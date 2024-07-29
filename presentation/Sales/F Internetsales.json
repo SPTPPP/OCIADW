@@ -1,0 +1,84 @@
+{
+  "presentationTable" : {
+    "name" : "F Internetsales",
+    "presentationColumns" : [ {
+      "name" : "Productkey",
+      "sourceLogicalColumn" : "logicalColumn:Sales.F Internetsales.Productkey"
+    }, {
+      "name" : "Orderdatekey",
+      "sourceLogicalColumn" : "logicalColumn:Sales.F Internetsales.Orderdatekey"
+    }, {
+      "name" : "Duedatekey",
+      "sourceLogicalColumn" : "logicalColumn:Sales.F Internetsales.Duedatekey"
+    }, {
+      "name" : "Shipdatekey",
+      "sourceLogicalColumn" : "logicalColumn:Sales.F Internetsales.Shipdatekey"
+    }, {
+      "name" : "Customerkey",
+      "sourceLogicalColumn" : "logicalColumn:Sales.F Internetsales.Customerkey"
+    }, {
+      "name" : "Promotionkey",
+      "sourceLogicalColumn" : "logicalColumn:Sales.F Internetsales.Promotionkey"
+    }, {
+      "name" : "Currencykey",
+      "sourceLogicalColumn" : "logicalColumn:Sales.F Internetsales.Currencykey"
+    }, {
+      "name" : "Salesterritorykey",
+      "sourceLogicalColumn" : "logicalColumn:Sales.F Internetsales.Salesterritorykey"
+    }, {
+      "name" : "Salesordernumber",
+      "sourceLogicalColumn" : "logicalColumn:Sales.F Internetsales.Salesordernumber"
+    }, {
+      "name" : "Salesorderlinenumber",
+      "sourceLogicalColumn" : "logicalColumn:Sales.F Internetsales.Salesorderlinenumber"
+    }, {
+      "name" : "Revisionnumber",
+      "sourceLogicalColumn" : "logicalColumn:Sales.F Internetsales.Revisionnumber"
+    }, {
+      "name" : "Orderquantity",
+      "sourceLogicalColumn" : "logicalColumn:Sales.F Internetsales.Orderquantity"
+    }, {
+      "name" : "Unitprice",
+      "sourceLogicalColumn" : "logicalColumn:Sales.F Internetsales.Unitprice"
+    }, {
+      "name" : "Extendedamount",
+      "sourceLogicalColumn" : "logicalColumn:Sales.F Internetsales.Extendedamount"
+    }, {
+      "name" : "Unitpricediscountpct",
+      "sourceLogicalColumn" : "logicalColumn:Sales.F Internetsales.Unitpricediscountpct"
+    }, {
+      "name" : "Discountamount",
+      "sourceLogicalColumn" : "logicalColumn:Sales.F Internetsales.Discountamount"
+    }, {
+      "name" : "Productstandardcost",
+      "sourceLogicalColumn" : "logicalColumn:Sales.F Internetsales.Productstandardcost"
+    }, {
+      "name" : "Totalproductcost",
+      "sourceLogicalColumn" : "logicalColumn:Sales.F Internetsales.Totalproductcost"
+    }, {
+      "name" : "Salesamount",
+      "sourceLogicalColumn" : "logicalColumn:Sales.F Internetsales.Salesamount"
+    }, {
+      "name" : "Taxamt",
+      "sourceLogicalColumn" : "logicalColumn:Sales.F Internetsales.Taxamt"
+    }, {
+      "name" : "Freight",
+      "sourceLogicalColumn" : "logicalColumn:Sales.F Internetsales.Freight"
+    }, {
+      "name" : "Carriertrackingnumber",
+      "sourceLogicalColumn" : "logicalColumn:Sales.F Internetsales.Carriertrackingnumber"
+    }, {
+      "name" : "Customerponumber",
+      "sourceLogicalColumn" : "logicalColumn:Sales.F Internetsales.Customerponumber"
+    }, {
+      "name" : "Orderdate",
+      "sourceLogicalColumn" : "logicalColumn:Sales.F Internetsales.Orderdate"
+    }, {
+      "name" : "Duedate",
+      "sourceLogicalColumn" : "logicalColumn:Sales.F Internetsales.Duedate"
+    }, {
+      "name" : "Shipdate",
+      "sourceLogicalColumn" : "logicalColumn:Sales.F Internetsales.Shipdate"
+    } ]
+  }
+}

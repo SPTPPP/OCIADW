@@ -1,0 +1,59 @@
+{
+  "subjectArea" : {
+    "name" : "Sales",
+    "sourceBusinessModel" : "businessModel:Sales",
+    "tableOrder" : [ {
+      "name" : "presentationTable:Sales.D Account"
+    }, {
+      "name" : "presentationTable:Sales.D Currency"
+    }, {
+      "name" : "presentationTable:Sales.D Customer"
+    }, {
+      "name" : "presentationTable:Sales.D Date"
+    }, {
+      "name" : "presentationTable:Sales.D Department Group"
+    }, {
+      "name" : "presentationTable:Sales.D Due Date"
+    }, {
+      "name" : "presentationTable:Sales.D Employee"
+    }, {
+      "name" : "presentationTable:Sales.D Order Date"
+    }, {
+      "name" : "presentationTable:Sales.D Organizatoion"
+    }, {
+      "name" : "presentationTable:Sales.D Prod Subcategory"
+    }, {
+      "name" : "presentationTable:Sales.D Product"
+    }, {
+      "name" : "presentationTable:Sales.D Product Category"
+    }, {
+      "name" : "presentationTable:Sales.D Product English Subcategory"
+    }, {
+      "name" : "presentationTable:Sales.D Promotion"
+    }, {
+      "name" : "presentationTable:Sales.D Sales Territory"
+    }, {
+      "name" : "presentationTable:Sales.D Salesreason"
+    }, {
+      "name" : "presentationTable:Sales.D Scenerio"
+    }, {
+      "name" : "presentationTable:Sales.D Ship Date"
+    }, {
+      "name" : "presentationTable:Sales.F Callcenter"
+    }, {
+      "name" : "presentationTable:Sales.F Currency Rate"
+    }, {
+      "name" : "presentationTable:Sales.F Finance"
+    }, {
+      "name" : "presentationTable:Sales.F Internet Sales Reason"
+    }, {
+      "name" : "presentationTable:Sales.F Internetsales"
+    }, {
+      "name" : "presentationTable:Sales.F Reseller Sales"
+    }, {
+      "name" : "presentationTable:Sales.F Sales Quota"
+    }, {
+      "name" : "presentationTable:Sales.F Survey Response"
+    } ]
+  }
+}

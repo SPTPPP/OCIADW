@@ -2,6 +2,43 @@
   "physicalTable" : {
     "name" : "F_Survey_Response",
     "sourceTable" : "physicalTable:Sales.ADMIN.FACTSURVEYRESPONSE",
-    "overrideSourceCacheSetting" : false
+    "overrideSourceCacheSetting" : false,
+    "joins" : [ {
+      "rightTable" : "physicalTable:Sales.ADMIN.D_Product_English_Subcategory",
+      "useJoinExpression" : false,
+      "joinConditions" : [ {
+        "leftColumn" : "physicalColumn:Sales.ADMIN.F_Survey_Response.PRODUCTSUBCATEGORYKEY",
+        "rightColumn" : "physicalColumn:Sales.ADMIN.D_Product_English_Subcategory.PRODUCTSUBCATEGORYALTERNATEKEY"
+      } ],
+      "joinType" : "INNER",
+      "cardinality" : "MANY_TO_ONE"
+    }, {
+      "rightTable" : "physicalTable:Sales.ADMIN.D_Prod_Subcategory",
+      "useJoinExpression" : false,
+      "joinConditions" : [ {
+        "leftColumn" : "physicalColumn:Sales.ADMIN.F_Survey_Response.PRODUCTSUBCATEGORYKEY",
+        "rightColumn" : "physicalColumn:Sales.ADMIN.D_Prod_Subcategory.PRODUCTSUBCATEGORYKEY"
+      } ],
+      "joinType" : "INNER",
+      "cardinality" : "MANY_TO_ONE"
+    }, {
+      "rightTable" : "physicalTable:Sales.ADMIN.D_Customer",
+      "useJoinExpression" : false,
+      "joinConditions" : [ {
+        "leftColumn" : "physicalColumn:Sales.ADMIN.F_Survey_Response.CUSTOMERKEY",
+        "rightColumn" : "physicalColumn:Sales.ADMIN.D_Customer.CUSTOMERKEY"
+      } ],
+      "joinType" : "INNER",
+      "cardinality" : "MANY_TO_ONE"
+    }, {
+      "rightTable" : "physicalTable:Sales.ADMIN.D_Product_Category",
+      "useJoinExpression" : false,
+      "joinConditions" : [ {
+        "leftColumn" : "physicalColumn:Sales.ADMIN.F_Survey_Response.PRODUCTCATEGORYKEY",
+        "rightColumn" : "physicalColumn:Sales.ADMIN.D_Product_Category.PRODUCTCATEGORYKEY"
+      } ],
+      "joinType" : "INNER",
+      "cardinality" : "MANY_TO_ONE"
+    } ]
   }
 }

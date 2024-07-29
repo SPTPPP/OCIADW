@@ -1,0 +1,54 @@
+{
+  "presentationTable" : {
+    "name" : "D Promotion",
+    "presentationColumns" : [ {
+      "name" : "Promotionkey",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Promotion.Promotionkey"
+    }, {
+      "name" : "Promotionalternatekey",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Promotion.Promotionalternatekey"
+    }, {
+      "name" : "Englishpromotionname",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Promotion.Englishpromotionname"
+    }, {
+      "name" : "Spanishpromotionname",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Promotion.Spanishpromotionname"
+    }, {
+      "name" : "Frenchpromotionname",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Promotion.Frenchpromotionname"
+    }, {
+      "name" : "Discountpct",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Promotion.Discountpct"
+    }, {
+      "name" : "Englishpromotiontype",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Promotion.Englishpromotiontype"
+    }, {
+      "name" : "Spanishpromotiontype",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Promotion.Spanishpromotiontype"
+    }, {
+      "name" : "Frenchpromotiontype",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Promotion.Frenchpromotiontype"
+    }, {
+      "name" : "Englishpromotioncategory",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Promotion.Englishpromotioncategory"
+    }, {
+      "name" : "Spanishpromotioncategory",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Promotion.Spanishpromotioncategory"
+    }, {
+      "name" : "Frenchpromotioncategory",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Promotion.Frenchpromotioncategory"
+    }, {
+      "name" : "Startdate",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Promotion.Startdate"
+    }, {
+      "name" : "Enddate",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Promotion.Enddate"
+    }, {
+      "name" : "Minqty",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Promotion.Minqty"
+    }, {
+      "name" : "Maxqty",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Promotion.Maxqty"
+    } ]
+  }
+}

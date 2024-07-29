@@ -1,0 +1,7 @@
+{
+  "physicalTable" : {
+    "name" : "D_Geography",
+    "sourceTable" : "physicalTable:Sales.ADMIN.DIMGEOGRAPHY",
+    "overrideSourceCacheSetting" : false
+  }
+}

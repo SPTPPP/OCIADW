@@ -1,0 +1,24 @@
+{
+  "presentationTable" : {
+    "name" : "D Sales Territory",
+    "presentationColumns" : [ {
+      "name" : "Salesterritorykey",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Sales Territory.Salesterritorykey"
+    }, {
+      "name" : "Salesterritoryalternatekey",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Sales Territory.Salesterritoryalternatekey"
+    }, {
+      "name" : "Salesterritoryregion",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Sales Territory.Salesterritoryregion"
+    }, {
+      "name" : "Salesterritorycountry",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Sales Territory.Salesterritorycountry"
+    }, {
+      "name" : "Salesterritorygroup",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Sales Territory.Salesterritorygroup"
+    }, {
+      "name" : "Salesterritoryimage",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Sales Territory.Salesterritoryimage"
+    } ]
+  }
+}

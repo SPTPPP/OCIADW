@@ -1,0 +1,63 @@
+{
+  "presentationTable" : {
+    "name" : "D Order Date",
+    "presentationColumns" : [ {
+      "name" : "Datekey",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Order Date.Datekey"
+    }, {
+      "name" : "Fulldatealternatekey",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Order Date.Fulldatealternatekey"
+    }, {
+      "name" : "Daynumberofweek",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Order Date.Daynumberofweek"
+    }, {
+      "name" : "Englishdaynameofweek",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Order Date.Englishdaynameofweek"
+    }, {
+      "name" : "Spanishdaynameofweek",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Order Date.Spanishdaynameofweek"
+    }, {
+      "name" : "Frenchdaynameofweek",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Order Date.Frenchdaynameofweek"
+    }, {
+      "name" : "Daynumberofmonth",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Order Date.Daynumberofmonth"
+    }, {
+      "name" : "Daynumberofyear",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Order Date.Daynumberofyear"
+    }, {
+      "name" : "Weeknumberofyear",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Order Date.Weeknumberofyear"
+    }, {
+      "name" : "Englishmonthname",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Order Date.Englishmonthname"
+    }, {
+      "name" : "Spanishmonthname",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Order Date.Spanishmonthname"
+    }, {
+      "name" : "Frenchmonthname",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Order Date.Frenchmonthname"
+    }, {
+      "name" : "Monthnumberofyear",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Order Date.Monthnumberofyear"
+    }, {
+      "name" : "Calendarquarter",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Order Date.Calendarquarter"
+    }, {
+      "name" : "Calendaryear",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Order Date.Calendaryear"
+    }, {
+      "name" : "Calendarsemester",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Order Date.Calendarsemester"
+    }, {
+      "name" : "Fiscalquarter",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Order Date.Fiscalquarter"
+    }, {
+      "name" : "Fiscalyear",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Order Date.Fiscalyear"
+    }, {
+      "name" : "Fiscalsemester",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Order Date.Fiscalsemester"
+    } ]
+  }
+}

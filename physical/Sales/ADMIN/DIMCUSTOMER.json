@@ -1,0 +1,156 @@
+{
+  "physicalTable" : {
+    "name" : "DIMCUSTOMER",
+    "sourceType" : "TABLE",
+    "physicalColumns" : [ {
+      "name" : "CUSTOMERKEY",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "GEOGRAPHYKEY",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "CUSTOMERALTERNATEKEY",
+      "dataType" : "VARCHAR",
+      "length" : 15,
+      "nullable" : false
+    }, {
+      "name" : "TITLE",
+      "dataType" : "VARCHAR",
+      "length" : 8,
+      "nullable" : true
+    }, {
+      "name" : "FIRSTNAME",
+      "dataType" : "VARCHAR",
+      "length" : 50,
+      "nullable" : true
+    }, {
+      "name" : "MIDDLENAME",
+      "dataType" : "VARCHAR",
+      "length" : 50,
+      "nullable" : true
+    }, {
+      "name" : "LASTNAME",
+      "dataType" : "VARCHAR",
+      "length" : 50,
+      "nullable" : true
+    }, {
+      "name" : "NAMESTYLE",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "BIRTHDATE",
+      "dataType" : "VARCHAR",
+      "length" : 10,
+      "nullable" : true
+    }, {
+      "name" : "MARITALSTATUS",
+      "dataType" : "CHAR",
+      "length" : 1,
+      "nullable" : true
+    }, {
+      "name" : "SUFFIX",
+      "dataType" : "VARCHAR",
+      "length" : 10,
+      "nullable" : true
+    }, {
+      "name" : "GENDER",
+      "dataType" : "VARCHAR",
+      "length" : 1,
+      "nullable" : true
+    }, {
+      "name" : "EMAILADDRESS",
+      "dataType" : "VARCHAR",
+      "length" : 50,
+      "nullable" : true
+    }, {
+      "name" : "YEARLYINCOME",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "TOTALCHILDREN",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "NUMBERCHILDRENATHOME",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "ENGLISHEDUCATION",
+      "dataType" : "VARCHAR",
+      "length" : 40,
+      "nullable" : true
+    }, {
+      "name" : "SPANISHEDUCATION",
+      "dataType" : "VARCHAR",
+      "length" : 40,
+      "nullable" : true
+    }, {
+      "name" : "FRENCHEDUCATION",
+      "dataType" : "VARCHAR",
+      "length" : 40,
+      "nullable" : true
+    }, {
+      "name" : "ENGLISHOCCUPATION",
+      "dataType" : "VARCHAR",
+      "length" : 100,
+      "nullable" : true
+    }, {
+      "name" : "SPANISHOCCUPATION",
+      "dataType" : "VARCHAR",
+      "length" : 100,
+      "nullable" : true
+    }, {
+      "name" : "FRENCHOCCUPATION",
+      "dataType" : "VARCHAR",
+      "length" : 100,
+      "nullable" : true
+    }, {
+      "name" : "HOUSEOWNERFLAG",
+      "dataType" : "CHAR",
+      "length" : 1,
+      "nullable" : true
+    }, {
+      "name" : "NUMBERCARSOWNED",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "ADDRESSLINE1",
+      "dataType" : "VARCHAR",
+      "length" : 120,
+      "nullable" : true
+    }, {
+      "name" : "ADDRESSLINE2",
+      "dataType" : "VARCHAR",
+      "length" : 120,
+      "nullable" : true
+    }, {
+      "name" : "PHONE",
+      "dataType" : "VARCHAR",
+      "length" : 20,
+      "nullable" : true
+    }, {
+      "name" : "DATEFIRSTPURCHASE",
+      "dataType" : "VARCHAR",
+      "length" : 10,
+      "nullable" : true
+    }, {
+      "name" : "COMMUTEDISTANCE",
+      "dataType" : "VARCHAR",
+      "length" : 15,
+      "nullable" : true
+    } ],
+    "caching" : {
+      "enable" : true,
+      "expiryTime" : 0
+    }
+  }
+}

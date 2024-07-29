@@ -378,12 +378,7 @@
       "distinctValues" : false
     } ],
     "joins" : [ {
-      "rightTable" : "logicalTable:Sales.D Order Date",
-      "joinType" : "INNER",
-      "cardinality" : "MANY_TO_ONE",
-      "drivingTable" : "None"
-    }, {
-      "rightTable" : "logicalTable:Sales.D Due Date",
+      "rightTable" : "logicalTable:Sales.D Customer",
       "joinType" : "INNER",
       "cardinality" : "MANY_TO_ONE",
       "drivingTable" : "None"
@@ -394,6 +389,16 @@
       "drivingTable" : "None"
     }, {
       "rightTable" : "logicalTable:Sales.D Product",
+      "joinType" : "INNER",
+      "cardinality" : "MANY_TO_ONE",
+      "drivingTable" : "None"
+    }, {
+      "rightTable" : "logicalTable:Sales.D Order Date",
+      "joinType" : "INNER",
+      "cardinality" : "MANY_TO_ONE",
+      "drivingTable" : "None"
+    }, {
+      "rightTable" : "logicalTable:Sales.D Due Date",
       "joinType" : "INNER",
       "cardinality" : "MANY_TO_ONE",
       "drivingTable" : "None"

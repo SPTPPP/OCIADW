@@ -1,0 +1,63 @@
+{
+  "presentationTable" : {
+    "name" : "D Ship Date",
+    "presentationColumns" : [ {
+      "name" : "Datekey",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Ship Date.Datekey"
+    }, {
+      "name" : "Fulldatealternatekey",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Ship Date.Fulldatealternatekey"
+    }, {
+      "name" : "Daynumberofweek",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Ship Date.Daynumberofweek"
+    }, {
+      "name" : "Englishdaynameofweek",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Ship Date.Englishdaynameofweek"
+    }, {
+      "name" : "Spanishdaynameofweek",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Ship Date.Spanishdaynameofweek"
+    }, {
+      "name" : "Frenchdaynameofweek",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Ship Date.Frenchdaynameofweek"
+    }, {
+      "name" : "Daynumberofmonth",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Ship Date.Daynumberofmonth"
+    }, {
+      "name" : "Daynumberofyear",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Ship Date.Daynumberofyear"
+    }, {
+      "name" : "Weeknumberofyear",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Ship Date.Weeknumberofyear"
+    }, {
+      "name" : "Englishmonthname",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Ship Date.Englishmonthname"
+    }, {
+      "name" : "Spanishmonthname",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Ship Date.Spanishmonthname"
+    }, {
+      "name" : "Frenchmonthname",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Ship Date.Frenchmonthname"
+    }, {
+      "name" : "Monthnumberofyear",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Ship Date.Monthnumberofyear"
+    }, {
+      "name" : "Calendarquarter",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Ship Date.Calendarquarter"
+    }, {
+      "name" : "Calendaryear",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Ship Date.Calendaryear"
+    }, {
+      "name" : "Calendarsemester",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Ship Date.Calendarsemester"
+    }, {
+      "name" : "Fiscalquarter",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Ship Date.Fiscalquarter"
+    }, {
+      "name" : "Fiscalyear",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Ship Date.Fiscalyear"
+    }, {
+      "name" : "Fiscalsemester",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Ship Date.Fiscalsemester"
+    } ]
+  }
+}

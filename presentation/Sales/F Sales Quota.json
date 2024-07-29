@@ -1,0 +1,27 @@
+{
+  "presentationTable" : {
+    "name" : "F Sales Quota",
+    "presentationColumns" : [ {
+      "name" : "Salesquotakey",
+      "sourceLogicalColumn" : "logicalColumn:Sales.F Sales Quota.Salesquotakey"
+    }, {
+      "name" : "Employeekey",
+      "sourceLogicalColumn" : "logicalColumn:Sales.F Sales Quota.Employeekey"
+    }, {
+      "name" : "Datekey",
+      "sourceLogicalColumn" : "logicalColumn:Sales.F Sales Quota.Datekey"
+    }, {
+      "name" : "Calendaryear",
+      "sourceLogicalColumn" : "logicalColumn:Sales.F Sales Quota.Calendaryear"
+    }, {
+      "name" : "Calendarquarter",
+      "sourceLogicalColumn" : "logicalColumn:Sales.F Sales Quota.Calendarquarter"
+    }, {
+      "name" : "Salesamountquota",
+      "sourceLogicalColumn" : "logicalColumn:Sales.F Sales Quota.Salesamountquota"
+    }, {
+      "name" : "Date_",
+      "sourceLogicalColumn" : "logicalColumn:Sales.F Sales Quota.Date_"
+    } ]
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "presentationTable" : {
+    "name" : "D Department Group",
+    "presentationColumns" : [ {
+      "name" : "Departmentgroupkey",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Department Group.Departmentgroupkey"
+    }, {
+      "name" : "Parentdepartmentgroupkey",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Department Group.Parentdepartmentgroupkey"
+    }, {
+      "name" : "Departmentgroupname",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Department Group.Departmentgroupname"
+    } ]
+  }
+}

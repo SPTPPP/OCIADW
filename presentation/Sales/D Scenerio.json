@@ -1,0 +1,12 @@
+{
+  "presentationTable" : {
+    "name" : "D Scenerio",
+    "presentationColumns" : [ {
+      "name" : "Scenariokey",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Scenerio.Scenariokey"
+    }, {
+      "name" : "Scenarioname",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Scenerio.Scenarioname"
+    } ]
+  }
+}

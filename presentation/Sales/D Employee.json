@@ -1,0 +1,99 @@
+{
+  "presentationTable" : {
+    "name" : "D Employee",
+    "presentationColumns" : [ {
+      "name" : "Employeekey",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Employee.Employeekey"
+    }, {
+      "name" : "Parentemployeekey",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Employee.Parentemployeekey"
+    }, {
+      "name" : "Employeenationalidalternatekey",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Employee.Employeenationalidalternatekey"
+    }, {
+      "name" : "Parentemployeenationalidalternatekey",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Employee.Parentemployeenationalidalternatekey"
+    }, {
+      "name" : "Salesterritorykey",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Employee.Salesterritorykey"
+    }, {
+      "name" : "Firstname",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Employee.Firstname"
+    }, {
+      "name" : "Lastname",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Employee.Lastname"
+    }, {
+      "name" : "Middlename",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Employee.Middlename"
+    }, {
+      "name" : "Namestyle",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Employee.Namestyle"
+    }, {
+      "name" : "Title",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Employee.Title"
+    }, {
+      "name" : "Hiredate",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Employee.Hiredate"
+    }, {
+      "name" : "Birthdate",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Employee.Birthdate"
+    }, {
+      "name" : "Loginid",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Employee.Loginid"
+    }, {
+      "name" : "Emailaddress",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Employee.Emailaddress"
+    }, {
+      "name" : "Phone",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Employee.Phone"
+    }, {
+      "name" : "Maritalstatus",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Employee.Maritalstatus"
+    }, {
+      "name" : "Emergencycontactname",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Employee.Emergencycontactname"
+    }, {
+      "name" : "Emergencycontactphone",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Employee.Emergencycontactphone"
+    }, {
+      "name" : "Salariedflag",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Employee.Salariedflag"
+    }, {
+      "name" : "Gender",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Employee.Gender"
+    }, {
+      "name" : "Payfrequency",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Employee.Payfrequency"
+    }, {
+      "name" : "Baserate",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Employee.Baserate"
+    }, {
+      "name" : "Vacationhours",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Employee.Vacationhours"
+    }, {
+      "name" : "Sickleavehours",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Employee.Sickleavehours"
+    }, {
+      "name" : "Currentflag",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Employee.Currentflag"
+    }, {
+      "name" : "Salespersonflag",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Employee.Salespersonflag"
+    }, {
+      "name" : "Departmentname",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Employee.Departmentname"
+    }, {
+      "name" : "Startdate",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Employee.Startdate"
+    }, {
+      "name" : "Enddate",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Employee.Enddate"
+    }, {
+      "name" : "Status",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Employee.Status"
+    }, {
+      "name" : "Employeephoto",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Employee.Employeephoto"
+    } ]
+  }
+}

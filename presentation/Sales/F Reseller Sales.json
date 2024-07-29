@@ -1,0 +1,87 @@
+{
+  "presentationTable" : {
+    "name" : "F Reseller Sales",
+    "presentationColumns" : [ {
+      "name" : "Productkey",
+      "sourceLogicalColumn" : "logicalColumn:Sales.F Reseller Sales.Productkey"
+    }, {
+      "name" : "Orderdatekey",
+      "sourceLogicalColumn" : "logicalColumn:Sales.F Reseller Sales.Orderdatekey"
+    }, {
+      "name" : "Duedatekey",
+      "sourceLogicalColumn" : "logicalColumn:Sales.F Reseller Sales.Duedatekey"
+    }, {
+      "name" : "Shipdatekey",
+      "sourceLogicalColumn" : "logicalColumn:Sales.F Reseller Sales.Shipdatekey"
+    }, {
+      "name" : "Resellerkey",
+      "sourceLogicalColumn" : "logicalColumn:Sales.F Reseller Sales.Resellerkey"
+    }, {
+      "name" : "Employeekey",
+      "sourceLogicalColumn" : "logicalColumn:Sales.F Reseller Sales.Employeekey"
+    }, {
+      "name" : "Promotionkey",
+      "sourceLogicalColumn" : "logicalColumn:Sales.F Reseller Sales.Promotionkey"
+    }, {
+      "name" : "Currencykey",
+      "sourceLogicalColumn" : "logicalColumn:Sales.F Reseller Sales.Currencykey"
+    }, {
+      "name" : "Salesterritorykey",
+      "sourceLogicalColumn" : "logicalColumn:Sales.F Reseller Sales.Salesterritorykey"
+    }, {
+      "name" : "Salesordernumber",
+      "sourceLogicalColumn" : "logicalColumn:Sales.F Reseller Sales.Salesordernumber"
+    }, {
+      "name" : "Salesorderlinenumber",
+      "sourceLogicalColumn" : "logicalColumn:Sales.F Reseller Sales.Salesorderlinenumber"
+    }, {
+      "name" : "Revisionnumber",
+      "sourceLogicalColumn" : "logicalColumn:Sales.F Reseller Sales.Revisionnumber"
+    }, {
+      "name" : "Orderquantity",
+      "sourceLogicalColumn" : "logicalColumn:Sales.F Reseller Sales.Orderquantity"
+    }, {
+      "name" : "Unitprice",
+      "sourceLogicalColumn" : "logicalColumn:Sales.F Reseller Sales.Unitprice"
+    }, {
+      "name" : "Extendedamount",
+      "sourceLogicalColumn" : "logicalColumn:Sales.F Reseller Sales.Extendedamount"
+    }, {
+      "name" : "Unitpricediscountpct",
+      "sourceLogicalColumn" : "logicalColumn:Sales.F Reseller Sales.Unitpricediscountpct"
+    }, {
+      "name" : "Discountamount",
+      "sourceLogicalColumn" : "logicalColumn:Sales.F Reseller Sales.Discountamount"
+    }, {
+      "name" : "Productstandardcost",
+      "sourceLogicalColumn" : "logicalColumn:Sales.F Reseller Sales.Productstandardcost"
+    }, {
+      "name" : "Totalproductcost",
+      "sourceLogicalColumn" : "logicalColumn:Sales.F Reseller Sales.Totalproductcost"
+    }, {
+      "name" : "Salesamount",
+      "sourceLogicalColumn" : "logicalColumn:Sales.F Reseller Sales.Salesamount"
+    }, {
+      "name" : "Taxamt",
+      "sourceLogicalColumn" : "logicalColumn:Sales.F Reseller Sales.Taxamt"
+    }, {
+      "name" : "Freight",
+      "sourceLogicalColumn" : "logicalColumn:Sales.F Reseller Sales.Freight"
+    }, {
+      "name" : "Carriertrackingnumber",
+      "sourceLogicalColumn" : "logicalColumn:Sales.F Reseller Sales.Carriertrackingnumber"
+    }, {
+      "name" : "Customerponumber",
+      "sourceLogicalColumn" : "logicalColumn:Sales.F Reseller Sales.Customerponumber"
+    }, {
+      "name" : "Orderdate",
+      "sourceLogicalColumn" : "logicalColumn:Sales.F Reseller Sales.Orderdate"
+    }, {
+      "name" : "Duedate",
+      "sourceLogicalColumn" : "logicalColumn:Sales.F Reseller Sales.Duedate"
+    }, {
+      "name" : "Shipdate",
+      "sourceLogicalColumn" : "logicalColumn:Sales.F Reseller Sales.Shipdate"
+    } ]
+  }
+}

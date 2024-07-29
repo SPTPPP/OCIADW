@@ -1,0 +1,15 @@
+{
+  "presentationTable" : {
+    "name" : "F Internet Sales Reason",
+    "presentationColumns" : [ {
+      "name" : "Salesordernumber",
+      "sourceLogicalColumn" : "logicalColumn:Sales.F Internet Sales Reason.Salesordernumber"
+    }, {
+      "name" : "Salesorderlinenumber",
+      "sourceLogicalColumn" : "logicalColumn:Sales.F Internet Sales Reason.Salesorderlinenumber"
+    }, {
+      "name" : "Salesreasonkey",
+      "sourceLogicalColumn" : "logicalColumn:Sales.F Internet Sales Reason.Salesreasonkey"
+    } ]
+  }
+}

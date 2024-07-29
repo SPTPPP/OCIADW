@@ -1,0 +1,93 @@
+{
+  "presentationTable" : {
+    "name" : "D Customer",
+    "presentationColumns" : [ {
+      "name" : "Customerkey",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Customer.Customerkey"
+    }, {
+      "name" : "Geographykey",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Customer.Geographykey"
+    }, {
+      "name" : "Customeralternatekey",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Customer.Customeralternatekey"
+    }, {
+      "name" : "Title",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Customer.Title"
+    }, {
+      "name" : "Firstname",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Customer.Firstname"
+    }, {
+      "name" : "Middlename",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Customer.Middlename"
+    }, {
+      "name" : "Lastname",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Customer.Lastname"
+    }, {
+      "name" : "Namestyle",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Customer.Namestyle"
+    }, {
+      "name" : "Birthdate",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Customer.Birthdate"
+    }, {
+      "name" : "Maritalstatus",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Customer.Maritalstatus"
+    }, {
+      "name" : "Suffix",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Customer.Suffix"
+    }, {
+      "name" : "Gender",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Customer.Gender"
+    }, {
+      "name" : "Emailaddress",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Customer.Emailaddress"
+    }, {
+      "name" : "Yearlyincome",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Customer.Yearlyincome"
+    }, {
+      "name" : "Totalchildren",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Customer.Totalchildren"
+    }, {
+      "name" : "Numberchildrenathome",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Customer.Numberchildrenathome"
+    }, {
+      "name" : "Englisheducation",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Customer.Englisheducation"
+    }, {
+      "name" : "Spanisheducation",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Customer.Spanisheducation"
+    }, {
+      "name" : "Frencheducation",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Customer.Frencheducation"
+    }, {
+      "name" : "Englishoccupation",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Customer.Englishoccupation"
+    }, {
+      "name" : "Spanishoccupation",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Customer.Spanishoccupation"
+    }, {
+      "name" : "Frenchoccupation",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Customer.Frenchoccupation"
+    }, {
+      "name" : "Houseownerflag",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Customer.Houseownerflag"
+    }, {
+      "name" : "Numbercarsowned",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Customer.Numbercarsowned"
+    }, {
+      "name" : "Addressline1",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Customer.Addressline1"
+    }, {
+      "name" : "Addressline2",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Customer.Addressline2"
+    }, {
+      "name" : "Phone",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Customer.Phone"
+    }, {
+      "name" : "Datefirstpurchase",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Customer.Datefirstpurchase"
+    }, {
+      "name" : "Commutedistance",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Customer.Commutedistance"
+    } ]
+  }
+}

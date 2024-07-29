@@ -1,32 +1,18 @@
 {
   "logicalTable" : {
-    "name" : "F Sales Quota",
+    "name" : "F Survey Response_1",
     "type" : "FACT",
     "logicalColumns" : [ {
-      "name" : "Salesquotakey",
+      "name" : "Surveyresponsekey",
       "dataType" : "NUMERIC",
       "writeable" : false,
       "logicalColumnSource" : {
         "derivedFrom" : "PHYSICAL_COLUMNS",
         "physicalMappings" : [ {
-          "logicalTableSource" : "F_Sales_Quota",
+          "logicalTableSource" : "F_Survey_Response",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
-            "expressionObjects" : [ "physicalColumn:Sales.ADMIN.F_Sales_Quota.SALESQUOTAKEY" ]
-          }
-        } ]
-      }
-    }, {
-      "name" : "Employeekey",
-      "dataType" : "NUMERIC",
-      "writeable" : false,
-      "logicalColumnSource" : {
-        "derivedFrom" : "PHYSICAL_COLUMNS",
-        "physicalMappings" : [ {
-          "logicalTableSource" : "F_Sales_Quota",
-          "physicalExpression" : {
-            "expressionTemplate" : "%1",
-            "expressionObjects" : [ "physicalColumn:Sales.ADMIN.F_Sales_Quota.EMPLOYEEKEY" ]
+            "expressionObjects" : [ "physicalColumn:Sales.ADMIN.F_Survey_Response.SURVEYRESPONSEKEY" ]
           }
         } ]
       }
@@ -37,52 +23,80 @@
       "logicalColumnSource" : {
         "derivedFrom" : "PHYSICAL_COLUMNS",
         "physicalMappings" : [ {
-          "logicalTableSource" : "F_Sales_Quota",
+          "logicalTableSource" : "F_Survey_Response",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
-            "expressionObjects" : [ "physicalColumn:Sales.ADMIN.F_Sales_Quota.DATEKEY" ]
+            "expressionObjects" : [ "physicalColumn:Sales.ADMIN.F_Survey_Response.DATEKEY" ]
           }
         } ]
       }
     }, {
-      "name" : "Calendaryear",
+      "name" : "Customerkey",
       "dataType" : "NUMERIC",
       "writeable" : false,
       "logicalColumnSource" : {
         "derivedFrom" : "PHYSICAL_COLUMNS",
         "physicalMappings" : [ {
-          "logicalTableSource" : "F_Sales_Quota",
+          "logicalTableSource" : "F_Survey_Response",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
-            "expressionObjects" : [ "physicalColumn:Sales.ADMIN.F_Sales_Quota.CALENDARYEAR" ]
+            "expressionObjects" : [ "physicalColumn:Sales.ADMIN.F_Survey_Response.CUSTOMERKEY" ]
           }
         } ]
       }
     }, {
-      "name" : "Calendarquarter",
+      "name" : "Productcategorykey",
       "dataType" : "NUMERIC",
       "writeable" : false,
       "logicalColumnSource" : {
         "derivedFrom" : "PHYSICAL_COLUMNS",
         "physicalMappings" : [ {
-          "logicalTableSource" : "F_Sales_Quota",
+          "logicalTableSource" : "F_Survey_Response",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
-            "expressionObjects" : [ "physicalColumn:Sales.ADMIN.F_Sales_Quota.CALENDARQUARTER" ]
+            "expressionObjects" : [ "physicalColumn:Sales.ADMIN.F_Survey_Response.PRODUCTCATEGORYKEY" ]
           }
         } ]
       }
     }, {
-      "name" : "Salesamountquota",
+      "name" : "Englishproductcategoryname",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "F_Survey_Response",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Sales.ADMIN.F_Survey_Response.ENGLISHPRODUCTCATEGORYNAME" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Productsubcategorykey",
       "dataType" : "NUMERIC",
       "writeable" : false,
       "logicalColumnSource" : {
         "derivedFrom" : "PHYSICAL_COLUMNS",
         "physicalMappings" : [ {
-          "logicalTableSource" : "F_Sales_Quota",
+          "logicalTableSource" : "F_Survey_Response",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
-            "expressionObjects" : [ "physicalColumn:Sales.ADMIN.F_Sales_Quota.SALESAMOUNTQUOTA" ]
+            "expressionObjects" : [ "physicalColumn:Sales.ADMIN.F_Survey_Response.PRODUCTSUBCATEGORYKEY" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Englishproductsubcategoryname",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "F_Survey_Response",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Sales.ADMIN.F_Survey_Response.ENGLISHPRODUCTSUBCATEGORYNAME" ]
           }
         } ]
       }
@@ -93,34 +107,23 @@
       "logicalColumnSource" : {
         "derivedFrom" : "PHYSICAL_COLUMNS",
         "physicalMappings" : [ {
-          "logicalTableSource" : "F_Sales_Quota",
+          "logicalTableSource" : "F_Survey_Response",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
-            "expressionObjects" : [ "physicalColumn:Sales.ADMIN.F_Sales_Quota.DATE_" ]
+            "expressionObjects" : [ "physicalColumn:Sales.ADMIN.F_Survey_Response.DATE_" ]
           }
         } ]
       }
     } ],
     "logicalTableSources" : [ {
-      "name" : "F_Sales_Quota",
+      "name" : "F_Survey_Response",
       "disable" : false,
       "tableMapping" : {
-        "tables" : [ "physicalTable:Sales.ADMIN.F_Sales_Quota" ]
+        "tables" : [ "physicalTable:Sales.ADMIN.F_Survey_Response" ]
       },
       "combineWithOtherFragments" : false,
       "enableFragmentSelection" : false,
       "distinctValues" : false
-    } ],
-    "joins" : [ {
-      "rightTable" : "logicalTable:Sales.D Date",
-      "joinType" : "INNER",
-      "cardinality" : "MANY_TO_ONE",
-      "drivingTable" : "None"
-    }, {
-      "rightTable" : "logicalTable:Sales.D Employee",
-      "joinType" : "INNER",
-      "cardinality" : "MANY_TO_ONE",
-      "drivingTable" : "None"
     } ]
   }
 }

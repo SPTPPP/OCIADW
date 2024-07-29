@@ -1,0 +1,24 @@
+{
+  "presentationTable" : {
+    "name" : "D Product English Subcategory",
+    "presentationColumns" : [ {
+      "name" : "Productsubcategorykey",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Product English Subcategory.Productsubcategorykey"
+    }, {
+      "name" : "Productsubcategoryalternatekey",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Product English Subcategory.Productsubcategoryalternatekey"
+    }, {
+      "name" : "Englishproductsubcategoryname",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Product English Subcategory.Englishproductsubcategoryname"
+    }, {
+      "name" : "Spanishproductsubcategoryname",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Product English Subcategory.Spanishproductsubcategoryname"
+    }, {
+      "name" : "Frenchproductsubcategoryname",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Product English Subcategory.Frenchproductsubcategoryname"
+    }, {
+      "name" : "Productcategorykey",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Product English Subcategory.Productcategorykey"
+    } ]
+  }
+}

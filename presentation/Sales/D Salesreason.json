@@ -1,0 +1,18 @@
+{
+  "presentationTable" : {
+    "name" : "D Salesreason",
+    "presentationColumns" : [ {
+      "name" : "Salesreasonkey",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Salesreason.Salesreasonkey"
+    }, {
+      "name" : "Salesreasonalternatekey",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Salesreason.Salesreasonalternatekey"
+    }, {
+      "name" : "Salesreasonname",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Salesreason.Salesreasonname"
+    }, {
+      "name" : "Salesreasonreasontype",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Salesreason.Salesreasonreasontype"
+    } ]
+  }
+}

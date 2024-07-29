@@ -1,436 +1,424 @@
 {
   "logicalTable" : {
-    "name" : "F Reseller Sales",
-    "type" : "FACT",
+    "name" : "D Customer",
+    "type" : "DIMENSION",
     "logicalColumns" : [ {
-      "name" : "Productkey",
+      "name" : "Customerkey",
       "dataType" : "NUMERIC",
       "writeable" : false,
       "logicalColumnSource" : {
         "derivedFrom" : "PHYSICAL_COLUMNS",
         "physicalMappings" : [ {
-          "logicalTableSource" : "F_Reseller_Sales",
+          "logicalTableSource" : "D_Customer",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
-            "expressionObjects" : [ "physicalColumn:Sales.ADMIN.F_Reseller_Sales.PRODUCTKEY" ]
+            "expressionObjects" : [ "physicalColumn:Sales.ADMIN.D_Customer.CUSTOMERKEY" ]
           }
         } ]
       }
     }, {
-      "name" : "Orderdatekey",
+      "name" : "Geographykey",
       "dataType" : "NUMERIC",
       "writeable" : false,
       "logicalColumnSource" : {
         "derivedFrom" : "PHYSICAL_COLUMNS",
         "physicalMappings" : [ {
-          "logicalTableSource" : "F_Reseller_Sales",
+          "logicalTableSource" : "D_Customer",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
-            "expressionObjects" : [ "physicalColumn:Sales.ADMIN.F_Reseller_Sales.ORDERDATEKEY" ]
+            "expressionObjects" : [ "physicalColumn:Sales.ADMIN.D_Customer.GEOGRAPHYKEY" ]
           }
         } ]
       }
     }, {
-      "name" : "Duedatekey",
-      "dataType" : "NUMERIC",
-      "writeable" : false,
-      "logicalColumnSource" : {
-        "derivedFrom" : "PHYSICAL_COLUMNS",
-        "physicalMappings" : [ {
-          "logicalTableSource" : "F_Reseller_Sales",
-          "physicalExpression" : {
-            "expressionTemplate" : "%1",
-            "expressionObjects" : [ "physicalColumn:Sales.ADMIN.F_Reseller_Sales.DUEDATEKEY" ]
-          }
-        } ]
-      }
-    }, {
-      "name" : "Shipdatekey",
-      "dataType" : "NUMERIC",
-      "writeable" : false,
-      "logicalColumnSource" : {
-        "derivedFrom" : "PHYSICAL_COLUMNS",
-        "physicalMappings" : [ {
-          "logicalTableSource" : "F_Reseller_Sales",
-          "physicalExpression" : {
-            "expressionTemplate" : "%1",
-            "expressionObjects" : [ "physicalColumn:Sales.ADMIN.F_Reseller_Sales.SHIPDATEKEY" ]
-          }
-        } ]
-      }
-    }, {
-      "name" : "Resellerkey",
-      "dataType" : "NUMERIC",
-      "writeable" : false,
-      "logicalColumnSource" : {
-        "derivedFrom" : "PHYSICAL_COLUMNS",
-        "physicalMappings" : [ {
-          "logicalTableSource" : "F_Reseller_Sales",
-          "physicalExpression" : {
-            "expressionTemplate" : "%1",
-            "expressionObjects" : [ "physicalColumn:Sales.ADMIN.F_Reseller_Sales.RESELLERKEY" ]
-          }
-        } ]
-      }
-    }, {
-      "name" : "Employeekey",
-      "dataType" : "NUMERIC",
-      "writeable" : false,
-      "logicalColumnSource" : {
-        "derivedFrom" : "PHYSICAL_COLUMNS",
-        "physicalMappings" : [ {
-          "logicalTableSource" : "F_Reseller_Sales",
-          "physicalExpression" : {
-            "expressionTemplate" : "%1",
-            "expressionObjects" : [ "physicalColumn:Sales.ADMIN.F_Reseller_Sales.EMPLOYEEKEY" ]
-          }
-        } ]
-      }
-    }, {
-      "name" : "Promotionkey",
-      "dataType" : "NUMERIC",
-      "writeable" : false,
-      "logicalColumnSource" : {
-        "derivedFrom" : "PHYSICAL_COLUMNS",
-        "physicalMappings" : [ {
-          "logicalTableSource" : "F_Reseller_Sales",
-          "physicalExpression" : {
-            "expressionTemplate" : "%1",
-            "expressionObjects" : [ "physicalColumn:Sales.ADMIN.F_Reseller_Sales.PROMOTIONKEY" ]
-          }
-        } ]
-      }
-    }, {
-      "name" : "Currencykey",
-      "dataType" : "NUMERIC",
-      "writeable" : false,
-      "logicalColumnSource" : {
-        "derivedFrom" : "PHYSICAL_COLUMNS",
-        "physicalMappings" : [ {
-          "logicalTableSource" : "F_Reseller_Sales",
-          "physicalExpression" : {
-            "expressionTemplate" : "%1",
-            "expressionObjects" : [ "physicalColumn:Sales.ADMIN.F_Reseller_Sales.CURRENCYKEY" ]
-          }
-        } ]
-      }
-    }, {
-      "name" : "Salesterritorykey",
-      "dataType" : "NUMERIC",
-      "writeable" : false,
-      "logicalColumnSource" : {
-        "derivedFrom" : "PHYSICAL_COLUMNS",
-        "physicalMappings" : [ {
-          "logicalTableSource" : "F_Reseller_Sales",
-          "physicalExpression" : {
-            "expressionTemplate" : "%1",
-            "expressionObjects" : [ "physicalColumn:Sales.ADMIN.F_Reseller_Sales.SALESTERRITORYKEY" ]
-          }
-        } ]
-      }
-    }, {
-      "name" : "Salesordernumber",
+      "name" : "Customeralternatekey",
       "dataType" : "VARCHAR",
       "writeable" : false,
       "logicalColumnSource" : {
         "derivedFrom" : "PHYSICAL_COLUMNS",
         "physicalMappings" : [ {
-          "logicalTableSource" : "F_Reseller_Sales",
+          "logicalTableSource" : "D_Customer",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
-            "expressionObjects" : [ "physicalColumn:Sales.ADMIN.F_Reseller_Sales.SALESORDERNUMBER" ]
+            "expressionObjects" : [ "physicalColumn:Sales.ADMIN.D_Customer.CUSTOMERALTERNATEKEY" ]
           }
         } ]
       }
     }, {
-      "name" : "Salesorderlinenumber",
-      "dataType" : "NUMERIC",
-      "writeable" : false,
-      "logicalColumnSource" : {
-        "derivedFrom" : "PHYSICAL_COLUMNS",
-        "physicalMappings" : [ {
-          "logicalTableSource" : "F_Reseller_Sales",
-          "physicalExpression" : {
-            "expressionTemplate" : "%1",
-            "expressionObjects" : [ "physicalColumn:Sales.ADMIN.F_Reseller_Sales.SALESORDERLINENUMBER" ]
-          }
-        } ]
-      }
-    }, {
-      "name" : "Revisionnumber",
-      "dataType" : "NUMERIC",
-      "writeable" : false,
-      "logicalColumnSource" : {
-        "derivedFrom" : "PHYSICAL_COLUMNS",
-        "physicalMappings" : [ {
-          "logicalTableSource" : "F_Reseller_Sales",
-          "physicalExpression" : {
-            "expressionTemplate" : "%1",
-            "expressionObjects" : [ "physicalColumn:Sales.ADMIN.F_Reseller_Sales.REVISIONNUMBER" ]
-          }
-        } ]
-      }
-    }, {
-      "name" : "Orderquantity",
-      "dataType" : "NUMERIC",
-      "writeable" : false,
-      "logicalColumnSource" : {
-        "derivedFrom" : "PHYSICAL_COLUMNS",
-        "physicalMappings" : [ {
-          "logicalTableSource" : "F_Reseller_Sales",
-          "physicalExpression" : {
-            "expressionTemplate" : "%1",
-            "expressionObjects" : [ "physicalColumn:Sales.ADMIN.F_Reseller_Sales.ORDERQUANTITY" ]
-          }
-        } ]
-      }
-    }, {
-      "name" : "Unitprice",
-      "dataType" : "NUMERIC",
-      "writeable" : false,
-      "logicalColumnSource" : {
-        "derivedFrom" : "PHYSICAL_COLUMNS",
-        "physicalMappings" : [ {
-          "logicalTableSource" : "F_Reseller_Sales",
-          "physicalExpression" : {
-            "expressionTemplate" : "%1",
-            "expressionObjects" : [ "physicalColumn:Sales.ADMIN.F_Reseller_Sales.UNITPRICE" ]
-          }
-        } ]
-      }
-    }, {
-      "name" : "Extendedamount",
-      "dataType" : "NUMERIC",
-      "writeable" : false,
-      "logicalColumnSource" : {
-        "derivedFrom" : "PHYSICAL_COLUMNS",
-        "physicalMappings" : [ {
-          "logicalTableSource" : "F_Reseller_Sales",
-          "physicalExpression" : {
-            "expressionTemplate" : "%1",
-            "expressionObjects" : [ "physicalColumn:Sales.ADMIN.F_Reseller_Sales.EXTENDEDAMOUNT" ]
-          }
-        } ]
-      }
-    }, {
-      "name" : "Unitpricediscountpct",
-      "dataType" : "NUMERIC",
-      "writeable" : false,
-      "logicalColumnSource" : {
-        "derivedFrom" : "PHYSICAL_COLUMNS",
-        "physicalMappings" : [ {
-          "logicalTableSource" : "F_Reseller_Sales",
-          "physicalExpression" : {
-            "expressionTemplate" : "%1",
-            "expressionObjects" : [ "physicalColumn:Sales.ADMIN.F_Reseller_Sales.UNITPRICEDISCOUNTPCT" ]
-          }
-        } ]
-      }
-    }, {
-      "name" : "Discountamount",
-      "dataType" : "NUMERIC",
-      "writeable" : false,
-      "logicalColumnSource" : {
-        "derivedFrom" : "PHYSICAL_COLUMNS",
-        "physicalMappings" : [ {
-          "logicalTableSource" : "F_Reseller_Sales",
-          "physicalExpression" : {
-            "expressionTemplate" : "%1",
-            "expressionObjects" : [ "physicalColumn:Sales.ADMIN.F_Reseller_Sales.DISCOUNTAMOUNT" ]
-          }
-        } ]
-      }
-    }, {
-      "name" : "Productstandardcost",
-      "dataType" : "NUMERIC",
-      "writeable" : false,
-      "logicalColumnSource" : {
-        "derivedFrom" : "PHYSICAL_COLUMNS",
-        "physicalMappings" : [ {
-          "logicalTableSource" : "F_Reseller_Sales",
-          "physicalExpression" : {
-            "expressionTemplate" : "%1",
-            "expressionObjects" : [ "physicalColumn:Sales.ADMIN.F_Reseller_Sales.PRODUCTSTANDARDCOST" ]
-          }
-        } ]
-      }
-    }, {
-      "name" : "Totalproductcost",
-      "dataType" : "NUMERIC",
-      "writeable" : false,
-      "logicalColumnSource" : {
-        "derivedFrom" : "PHYSICAL_COLUMNS",
-        "physicalMappings" : [ {
-          "logicalTableSource" : "F_Reseller_Sales",
-          "physicalExpression" : {
-            "expressionTemplate" : "%1",
-            "expressionObjects" : [ "physicalColumn:Sales.ADMIN.F_Reseller_Sales.TOTALPRODUCTCOST" ]
-          }
-        } ]
-      }
-    }, {
-      "name" : "Salesamount",
-      "dataType" : "NUMERIC",
-      "writeable" : false,
-      "logicalColumnSource" : {
-        "derivedFrom" : "PHYSICAL_COLUMNS",
-        "physicalMappings" : [ {
-          "logicalTableSource" : "F_Reseller_Sales",
-          "physicalExpression" : {
-            "expressionTemplate" : "%1",
-            "expressionObjects" : [ "physicalColumn:Sales.ADMIN.F_Reseller_Sales.SALESAMOUNT" ]
-          }
-        } ]
-      }
-    }, {
-      "name" : "Taxamt",
-      "dataType" : "NUMERIC",
-      "writeable" : false,
-      "logicalColumnSource" : {
-        "derivedFrom" : "PHYSICAL_COLUMNS",
-        "physicalMappings" : [ {
-          "logicalTableSource" : "F_Reseller_Sales",
-          "physicalExpression" : {
-            "expressionTemplate" : "%1",
-            "expressionObjects" : [ "physicalColumn:Sales.ADMIN.F_Reseller_Sales.TAXAMT" ]
-          }
-        } ]
-      }
-    }, {
-      "name" : "Freight",
-      "dataType" : "NUMERIC",
-      "writeable" : false,
-      "logicalColumnSource" : {
-        "derivedFrom" : "PHYSICAL_COLUMNS",
-        "physicalMappings" : [ {
-          "logicalTableSource" : "F_Reseller_Sales",
-          "physicalExpression" : {
-            "expressionTemplate" : "%1",
-            "expressionObjects" : [ "physicalColumn:Sales.ADMIN.F_Reseller_Sales.FREIGHT" ]
-          }
-        } ]
-      }
-    }, {
-      "name" : "Carriertrackingnumber",
+      "name" : "Title",
       "dataType" : "VARCHAR",
       "writeable" : false,
       "logicalColumnSource" : {
         "derivedFrom" : "PHYSICAL_COLUMNS",
         "physicalMappings" : [ {
-          "logicalTableSource" : "F_Reseller_Sales",
+          "logicalTableSource" : "D_Customer",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
-            "expressionObjects" : [ "physicalColumn:Sales.ADMIN.F_Reseller_Sales.CARRIERTRACKINGNUMBER" ]
+            "expressionObjects" : [ "physicalColumn:Sales.ADMIN.D_Customer.TITLE" ]
           }
         } ]
       }
     }, {
-      "name" : "Customerponumber",
+      "name" : "Firstname",
       "dataType" : "VARCHAR",
       "writeable" : false,
       "logicalColumnSource" : {
         "derivedFrom" : "PHYSICAL_COLUMNS",
         "physicalMappings" : [ {
-          "logicalTableSource" : "F_Reseller_Sales",
+          "logicalTableSource" : "D_Customer",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
-            "expressionObjects" : [ "physicalColumn:Sales.ADMIN.F_Reseller_Sales.CUSTOMERPONUMBER" ]
+            "expressionObjects" : [ "physicalColumn:Sales.ADMIN.D_Customer.FIRSTNAME" ]
           }
         } ]
       }
     }, {
-      "name" : "Orderdate",
-      "dataType" : "TIMESTAMP",
+      "name" : "Middlename",
+      "dataType" : "VARCHAR",
       "writeable" : false,
       "logicalColumnSource" : {
         "derivedFrom" : "PHYSICAL_COLUMNS",
         "physicalMappings" : [ {
-          "logicalTableSource" : "F_Reseller_Sales",
+          "logicalTableSource" : "D_Customer",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
-            "expressionObjects" : [ "physicalColumn:Sales.ADMIN.F_Reseller_Sales.ORDERDATE" ]
+            "expressionObjects" : [ "physicalColumn:Sales.ADMIN.D_Customer.MIDDLENAME" ]
           }
         } ]
       }
     }, {
-      "name" : "Duedate",
-      "dataType" : "TIMESTAMP",
+      "name" : "Lastname",
+      "dataType" : "VARCHAR",
       "writeable" : false,
       "logicalColumnSource" : {
         "derivedFrom" : "PHYSICAL_COLUMNS",
         "physicalMappings" : [ {
-          "logicalTableSource" : "F_Reseller_Sales",
+          "logicalTableSource" : "D_Customer",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
-            "expressionObjects" : [ "physicalColumn:Sales.ADMIN.F_Reseller_Sales.DUEDATE" ]
+            "expressionObjects" : [ "physicalColumn:Sales.ADMIN.D_Customer.LASTNAME" ]
           }
         } ]
       }
     }, {
-      "name" : "Shipdate",
-      "dataType" : "TIMESTAMP",
+      "name" : "Namestyle",
+      "dataType" : "NUMERIC",
       "writeable" : false,
       "logicalColumnSource" : {
         "derivedFrom" : "PHYSICAL_COLUMNS",
         "physicalMappings" : [ {
-          "logicalTableSource" : "F_Reseller_Sales",
+          "logicalTableSource" : "D_Customer",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
-            "expressionObjects" : [ "physicalColumn:Sales.ADMIN.F_Reseller_Sales.SHIPDATE" ]
+            "expressionObjects" : [ "physicalColumn:Sales.ADMIN.D_Customer.NAMESTYLE" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Birthdate",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "D_Customer",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Sales.ADMIN.D_Customer.BIRTHDATE" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Maritalstatus",
+      "dataType" : "CHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "D_Customer",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Sales.ADMIN.D_Customer.MARITALSTATUS" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Suffix",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "D_Customer",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Sales.ADMIN.D_Customer.SUFFIX" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Gender",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "D_Customer",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Sales.ADMIN.D_Customer.GENDER" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Emailaddress",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "D_Customer",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Sales.ADMIN.D_Customer.EMAILADDRESS" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Yearlyincome",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "D_Customer",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Sales.ADMIN.D_Customer.YEARLYINCOME" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Totalchildren",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "D_Customer",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Sales.ADMIN.D_Customer.TOTALCHILDREN" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Numberchildrenathome",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "D_Customer",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Sales.ADMIN.D_Customer.NUMBERCHILDRENATHOME" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Englisheducation",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "D_Customer",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Sales.ADMIN.D_Customer.ENGLISHEDUCATION" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Spanisheducation",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "D_Customer",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Sales.ADMIN.D_Customer.SPANISHEDUCATION" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Frencheducation",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "D_Customer",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Sales.ADMIN.D_Customer.FRENCHEDUCATION" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Englishoccupation",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "D_Customer",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Sales.ADMIN.D_Customer.ENGLISHOCCUPATION" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Spanishoccupation",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "D_Customer",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Sales.ADMIN.D_Customer.SPANISHOCCUPATION" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Frenchoccupation",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "D_Customer",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Sales.ADMIN.D_Customer.FRENCHOCCUPATION" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Houseownerflag",
+      "dataType" : "CHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "D_Customer",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Sales.ADMIN.D_Customer.HOUSEOWNERFLAG" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Numbercarsowned",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "D_Customer",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Sales.ADMIN.D_Customer.NUMBERCARSOWNED" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Addressline1",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "D_Customer",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Sales.ADMIN.D_Customer.ADDRESSLINE1" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Addressline2",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "D_Customer",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Sales.ADMIN.D_Customer.ADDRESSLINE2" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Phone",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "D_Customer",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Sales.ADMIN.D_Customer.PHONE" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Datefirstpurchase",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "D_Customer",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Sales.ADMIN.D_Customer.DATEFIRSTPURCHASE" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Commutedistance",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "D_Customer",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Sales.ADMIN.D_Customer.COMMUTEDISTANCE" ]
           }
         } ]
       }
     } ],
     "logicalTableSources" : [ {
-      "name" : "F_Reseller_Sales",
+      "name" : "D_Customer",
       "disable" : false,
       "tableMapping" : {
-        "tables" : [ "physicalTable:Sales.ADMIN.F_Reseller_Sales" ]
+        "tables" : [ "physicalTable:Sales.ADMIN.D_Customer" ]
       },
       "combineWithOtherFragments" : false,
       "enableFragmentSelection" : false,
       "distinctValues" : false
     } ],
-    "joins" : [ {
-      "rightTable" : "logicalTable:Sales.D Currency",
-      "joinType" : "INNER",
-      "cardinality" : "MANY_TO_ONE",
-      "drivingTable" : "None"
-    }, {
-      "rightTable" : "logicalTable:Sales.D Product",
-      "joinType" : "INNER",
-      "cardinality" : "MANY_TO_ONE",
-      "drivingTable" : "None"
-    }, {
-      "rightTable" : "logicalTable:Sales.D Order Date",
-      "joinType" : "INNER",
-      "cardinality" : "MANY_TO_ONE",
-      "drivingTable" : "None"
-    }, {
-      "rightTable" : "logicalTable:Sales.D Due Date",
-      "joinType" : "INNER",
-      "cardinality" : "MANY_TO_ONE",
-      "drivingTable" : "None"
-    }, {
-      "rightTable" : "logicalTable:Sales.D Employee",
-      "joinType" : "INNER",
-      "cardinality" : "MANY_TO_ONE",
-      "drivingTable" : "None"
-    }, {
-      "rightTable" : "logicalTable:Sales.D Ship Date",
-      "joinType" : "INNER",
-      "cardinality" : "MANY_TO_ONE",
-      "drivingTable" : "None"
-    }, {
-      "rightTable" : "logicalTable:Sales.D Promotion",
-      "joinType" : "INNER",
-      "cardinality" : "MANY_TO_ONE",
-      "drivingTable" : "None"
-    }, {
-      "rightTable" : "logicalTable:Sales.D Sales Territory",
-      "joinType" : "INNER",
-      "cardinality" : "MANY_TO_ONE",
-      "drivingTable" : "None"
-    } ]
+    "primaryKey" : [ "Customerkey" ]
   }
 }

@@ -1,0 +1,36 @@
+{
+  "presentationTable" : {
+    "name" : "D Account",
+    "presentationColumns" : [ {
+      "name" : "Accountkey",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Account.Accountkey"
+    }, {
+      "name" : "Parentaccountkey",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Account.Parentaccountkey"
+    }, {
+      "name" : "Accountcodealternatekey",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Account.Accountcodealternatekey"
+    }, {
+      "name" : "Parentaccountcodealternatekey",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Account.Parentaccountcodealternatekey"
+    }, {
+      "name" : "Accountdescription",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Account.Accountdescription"
+    }, {
+      "name" : "Accounttype",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Account.Accounttype"
+    }, {
+      "name" : "Operator",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Account.Operator"
+    }, {
+      "name" : "Custommembers",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Account.Custommembers"
+    }, {
+      "name" : "Valuetype",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Account.Valuetype"
+    }, {
+      "name" : "Custommemberoptions",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Account.Custommemberoptions"
+    } ]
+  }
+}

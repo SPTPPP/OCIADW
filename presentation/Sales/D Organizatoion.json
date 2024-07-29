@@ -1,0 +1,21 @@
+{
+  "presentationTable" : {
+    "name" : "D Organizatoion",
+    "presentationColumns" : [ {
+      "name" : "Organizationkey",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Organizatoion.Organizationkey"
+    }, {
+      "name" : "Parentorganizationkey",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Organizatoion.Parentorganizationkey"
+    }, {
+      "name" : "Percentageofownership",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Organizatoion.Percentageofownership"
+    }, {
+      "name" : "Organizationname",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Organizatoion.Organizationname"
+    }, {
+      "name" : "Currencykey",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Organizatoion.Currencykey"
+    } ]
+  }
+}

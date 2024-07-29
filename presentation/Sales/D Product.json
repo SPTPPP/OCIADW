@@ -1,0 +1,114 @@
+{
+  "presentationTable" : {
+    "name" : "D Product",
+    "presentationColumns" : [ {
+      "name" : "Productkey",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Product.Productkey"
+    }, {
+      "name" : "Productalternatekey",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Product.Productalternatekey"
+    }, {
+      "name" : "Productsubcategorykey",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Product.Productsubcategorykey"
+    }, {
+      "name" : "Weightunitmeasurecode",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Product.Weightunitmeasurecode"
+    }, {
+      "name" : "Sizeunitmeasurecode",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Product.Sizeunitmeasurecode"
+    }, {
+      "name" : "Englishproductname",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Product.Englishproductname"
+    }, {
+      "name" : "Spanishproductname",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Product.Spanishproductname"
+    }, {
+      "name" : "Frenchproductname",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Product.Frenchproductname"
+    }, {
+      "name" : "Standardcost",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Product.Standardcost"
+    }, {
+      "name" : "Finishedgoodsflag",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Product.Finishedgoodsflag"
+    }, {
+      "name" : "Color",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Product.Color"
+    }, {
+      "name" : "Safetystocklevel",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Product.Safetystocklevel"
+    }, {
+      "name" : "Reorderpoint",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Product.Reorderpoint"
+    }, {
+      "name" : "Listprice",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Product.Listprice"
+    }, {
+      "name" : "Size_",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Product.Size_"
+    }, {
+      "name" : "Sizerange",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Product.Sizerange"
+    }, {
+      "name" : "Weight",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Product.Weight"
+    }, {
+      "name" : "Daystomanufacture",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Product.Daystomanufacture"
+    }, {
+      "name" : "Productline",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Product.Productline"
+    }, {
+      "name" : "Dealerprice",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Product.Dealerprice"
+    }, {
+      "name" : "Class",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Product.Class"
+    }, {
+      "name" : "Style",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Product.Style"
+    }, {
+      "name" : "Modelname",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Product.Modelname"
+    }, {
+      "name" : "Largephoto",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Product.Largephoto"
+    }, {
+      "name" : "Englishdescription",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Product.Englishdescription"
+    }, {
+      "name" : "Frenchdescription",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Product.Frenchdescription"
+    }, {
+      "name" : "Chinesedescription",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Product.Chinesedescription"
+    }, {
+      "name" : "Arabicdescription",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Product.Arabicdescription"
+    }, {
+      "name" : "Hebrewdescription",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Product.Hebrewdescription"
+    }, {
+      "name" : "Thaidescription",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Product.Thaidescription"
+    }, {
+      "name" : "Germandescription",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Product.Germandescription"
+    }, {
+      "name" : "Japanesedescription",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Product.Japanesedescription"
+    }, {
+      "name" : "Turkishdescription",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Product.Turkishdescription"
+    }, {
+      "name" : "Startdate",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Product.Startdate"
+    }, {
+      "name" : "Enddate",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Product.Enddate"
+    }, {
+      "name" : "Status",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Product.Status"
+    } ]
+  }
+}

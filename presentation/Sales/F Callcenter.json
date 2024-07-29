@@ -1,0 +1,48 @@
+{
+  "presentationTable" : {
+    "name" : "F Callcenter",
+    "presentationColumns" : [ {
+      "name" : "Factcallcenterid",
+      "sourceLogicalColumn" : "logicalColumn:Sales.F Callcenter.Factcallcenterid"
+    }, {
+      "name" : "Datekey",
+      "sourceLogicalColumn" : "logicalColumn:Sales.F Callcenter.Datekey"
+    }, {
+      "name" : "Wagetype",
+      "sourceLogicalColumn" : "logicalColumn:Sales.F Callcenter.Wagetype"
+    }, {
+      "name" : "Shift",
+      "sourceLogicalColumn" : "logicalColumn:Sales.F Callcenter.Shift"
+    }, {
+      "name" : "Leveloneoperators",
+      "sourceLogicalColumn" : "logicalColumn:Sales.F Callcenter.Leveloneoperators"
+    }, {
+      "name" : "Leveltwooperators",
+      "sourceLogicalColumn" : "logicalColumn:Sales.F Callcenter.Leveltwooperators"
+    }, {
+      "name" : "Totaloperators",
+      "sourceLogicalColumn" : "logicalColumn:Sales.F Callcenter.Totaloperators"
+    }, {
+      "name" : "Calls",
+      "sourceLogicalColumn" : "logicalColumn:Sales.F Callcenter.Calls"
+    }, {
+      "name" : "Automaticresponses",
+      "sourceLogicalColumn" : "logicalColumn:Sales.F Callcenter.Automaticresponses"
+    }, {
+      "name" : "Orders",
+      "sourceLogicalColumn" : "logicalColumn:Sales.F Callcenter.Orders"
+    }, {
+      "name" : "Issuesraised",
+      "sourceLogicalColumn" : "logicalColumn:Sales.F Callcenter.Issuesraised"
+    }, {
+      "name" : "Averagetimeperissue",
+      "sourceLogicalColumn" : "logicalColumn:Sales.F Callcenter.Averagetimeperissue"
+    }, {
+      "name" : "Servicegrade",
+      "sourceLogicalColumn" : "logicalColumn:Sales.F Callcenter.Servicegrade"
+    }, {
+      "name" : "Date_",
+      "sourceLogicalColumn" : "logicalColumn:Sales.F Callcenter.Date_"
+    } ]
+  }
+}

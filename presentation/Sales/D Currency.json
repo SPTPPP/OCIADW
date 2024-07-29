@@ -1,0 +1,15 @@
+{
+  "presentationTable" : {
+    "name" : "D Currency",
+    "presentationColumns" : [ {
+      "name" : "Currencykey",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Currency.Currencykey"
+    }, {
+      "name" : "Currencyalternatekey",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Currency.Currencyalternatekey"
+    }, {
+      "name" : "Currencyname",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Currency.Currencyname"
+    } ]
+  }
+}

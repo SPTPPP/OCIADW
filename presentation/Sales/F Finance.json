@@ -1,0 +1,30 @@
+{
+  "presentationTable" : {
+    "name" : "F Finance",
+    "presentationColumns" : [ {
+      "name" : "Financekey",
+      "sourceLogicalColumn" : "logicalColumn:Sales.F Finance.Financekey"
+    }, {
+      "name" : "Datekey",
+      "sourceLogicalColumn" : "logicalColumn:Sales.F Finance.Datekey"
+    }, {
+      "name" : "Organizationkey",
+      "sourceLogicalColumn" : "logicalColumn:Sales.F Finance.Organizationkey"
+    }, {
+      "name" : "Departmentgroupkey",
+      "sourceLogicalColumn" : "logicalColumn:Sales.F Finance.Departmentgroupkey"
+    }, {
+      "name" : "Scenariokey",
+      "sourceLogicalColumn" : "logicalColumn:Sales.F Finance.Scenariokey"
+    }, {
+      "name" : "Accountkey",
+      "sourceLogicalColumn" : "logicalColumn:Sales.F Finance.Accountkey"
+    }, {
+      "name" : "Amount",
+      "sourceLogicalColumn" : "logicalColumn:Sales.F Finance.Amount"
+    }, {
+      "name" : "Date_",
+      "sourceLogicalColumn" : "logicalColumn:Sales.F Finance.Date_"
+    } ]
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "physicalTable" : {
+    "name" : "D_Customer",
+    "sourceTable" : "physicalTable:Sales.ADMIN.DIMCUSTOMER",
+    "overrideSourceCacheSetting" : false
+  }
+}

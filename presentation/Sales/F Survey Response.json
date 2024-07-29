@@ -1,0 +1,30 @@
+{
+  "presentationTable" : {
+    "name" : "F Survey Response",
+    "presentationColumns" : [ {
+      "name" : "Surveyresponsekey",
+      "sourceLogicalColumn" : "logicalColumn:Sales.F Survey Response.Surveyresponsekey"
+    }, {
+      "name" : "Datekey",
+      "sourceLogicalColumn" : "logicalColumn:Sales.F Survey Response.Datekey"
+    }, {
+      "name" : "Customerkey",
+      "sourceLogicalColumn" : "logicalColumn:Sales.F Survey Response.Customerkey"
+    }, {
+      "name" : "Productcategorykey",
+      "sourceLogicalColumn" : "logicalColumn:Sales.F Survey Response.Productcategorykey"
+    }, {
+      "name" : "Englishproductcategoryname",
+      "sourceLogicalColumn" : "logicalColumn:Sales.F Survey Response.Englishproductcategoryname"
+    }, {
+      "name" : "Productsubcategorykey",
+      "sourceLogicalColumn" : "logicalColumn:Sales.F Survey Response.Productsubcategorykey"
+    }, {
+      "name" : "Englishproductsubcategoryname",
+      "sourceLogicalColumn" : "logicalColumn:Sales.F Survey Response.Englishproductsubcategoryname"
+    }, {
+      "name" : "Date_",
+      "sourceLogicalColumn" : "logicalColumn:Sales.F Survey Response.Date_"
+    } ]
+  }
+}
